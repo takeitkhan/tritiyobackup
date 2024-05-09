@@ -1,0 +1,1 @@
+/home/torygar//magento/app/etc/local.xml

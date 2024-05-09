@@ -1,0 +1,1 @@
+/var/empty/sshd//blogs/wp-config.php

@@ -1,0 +1,1 @@
+/var/named//wordpress/wp-config.php

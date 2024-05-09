@@ -1,0 +1,1 @@
+/usr/games//main/configuration.php

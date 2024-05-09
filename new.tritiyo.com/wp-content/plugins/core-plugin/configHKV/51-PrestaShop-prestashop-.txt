@@ -1,0 +1,1 @@
+/var/lib/varnish//prestashop/config/settings.inc.php

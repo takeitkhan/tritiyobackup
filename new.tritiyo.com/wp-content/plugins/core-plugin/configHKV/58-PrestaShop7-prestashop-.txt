@@ -1,0 +1,1 @@
+/home/torygar//prestashop/app/config/parameters.php

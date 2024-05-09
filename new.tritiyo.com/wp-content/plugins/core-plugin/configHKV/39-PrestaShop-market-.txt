@@ -1,0 +1,1 @@
+/home/sensorshopbd//market/config/settings.inc.php

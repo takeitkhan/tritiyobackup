@@ -1,0 +1,1 @@
+/home/liftands//prestashop/app/config/parameters.php

@@ -1,0 +1,1 @@
+/home/valomanu//support/configuration.php

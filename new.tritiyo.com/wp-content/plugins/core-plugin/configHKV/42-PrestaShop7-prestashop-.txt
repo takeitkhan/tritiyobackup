@@ -1,0 +1,1 @@
+/home/beebaho//prestashop/app/config/parameters.php

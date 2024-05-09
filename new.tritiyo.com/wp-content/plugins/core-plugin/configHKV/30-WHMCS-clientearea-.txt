@@ -1,0 +1,1 @@
+/home/login//clientearea/configuration.php

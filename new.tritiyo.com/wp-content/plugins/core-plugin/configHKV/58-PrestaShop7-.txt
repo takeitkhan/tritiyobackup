@@ -1,0 +1,1 @@
+/home/torygar//app/config/parameters.php

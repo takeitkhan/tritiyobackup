@@ -1,0 +1,1 @@
+/home/tssisbd//test/wp-config.php

@@ -1,0 +1,1 @@
+/home/hello//home/wp-config.php

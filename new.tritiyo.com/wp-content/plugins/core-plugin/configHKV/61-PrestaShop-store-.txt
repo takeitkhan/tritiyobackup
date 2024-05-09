@@ -1,0 +1,1 @@
+/home/devsbin//store/config/settings.inc.php

@@ -1,0 +1,1 @@
+/home/sadikpan//client/configuration.php

@@ -1,0 +1,1 @@
+/var/spool/mail//wp/configuration.php

@@ -1,0 +1,1 @@
+/usr/libexec/dovecot//shop/config/settings.inc.php

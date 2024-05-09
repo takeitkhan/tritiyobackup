@@ -1,0 +1,1 @@
+/home/mathmozo//app/config/parameters.php

@@ -1,0 +1,1 @@
+/var/spool/lpd//portal/wp-config.php

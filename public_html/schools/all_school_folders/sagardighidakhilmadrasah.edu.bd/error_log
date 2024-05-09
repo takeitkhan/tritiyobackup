@@ -1,0 +1,10 @@
+[04-Jan-2016 06:49:27 UTC] PHP Fatal error:  Call to a member function getAllPagesFrontend() on a non-object in /home/tritiyo/public_html/schools/application/modules/frontend/controllers/Frontend.php on line 419
+[04-Jan-2016 06:49:30 UTC] PHP Fatal error:  Call to a member function getAllPagesFrontend() on a non-object in /home/tritiyo/public_html/schools/application/modules/frontend/controllers/Frontend.php on line 419
+[04-Jan-2016 06:49:35 UTC] PHP Fatal error:  Call to a member function getAllPagesFrontend() on a non-object in /home/tritiyo/public_html/schools/application/modules/frontend/controllers/Frontend.php on line 419
+[04-Jan-2016 06:49:47 UTC] PHP Fatal error:  Call to a member function getAllPagesFrontend() on a non-object in /home/tritiyo/public_html/schools/application/modules/frontend/controllers/Frontend.php on line 419
+[04-Jan-2016 06:49:51 UTC] PHP Fatal error:  Call to a member function getAllPagesFrontend() on a non-object in /home/tritiyo/public_html/schools/application/modules/frontend/controllers/Frontend.php on line 419
+[04-Jan-2016 06:49:59 UTC] PHP Fatal error:  Call to a member function getAllPagesFrontend() on a non-object in /home/tritiyo/public_html/schools/application/modules/frontend/controllers/Frontend.php on line 419
+[04-Jan-2016 06:50:11 UTC] PHP Fatal error:  Call to a member function getAllPagesFrontend() on a non-object in /home/tritiyo/public_html/schools/application/modules/frontend/controllers/Frontend.php on line 419
+[04-Jan-2016 06:50:47 UTC] PHP Fatal error:  Call to a member function getAllPagesFrontend() on a non-object in /home/tritiyo/public_html/schools/application/modules/frontend/controllers/Frontend.php on line 419
+[24-Jan-2016 08:48:28 UTC] PHP Fatal error:  Call to a member function getAllApplicants() on a non-object in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180
+[24-Jan-2016 08:50:35 UTC] PHP Fatal error:  Call to a member function getAllApplicants() on a non-object in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180

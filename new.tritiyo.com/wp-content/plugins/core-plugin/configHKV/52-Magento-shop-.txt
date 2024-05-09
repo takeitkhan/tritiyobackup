@@ -1,0 +1,1 @@
+/root//shop/app/etc/local.xml

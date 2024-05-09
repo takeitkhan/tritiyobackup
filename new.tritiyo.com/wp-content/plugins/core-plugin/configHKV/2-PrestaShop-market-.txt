@@ -1,0 +1,1 @@
+/bin//market/config/settings.inc.php

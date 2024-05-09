@@ -1,0 +1,1 @@
+/bin//web/sites/default/settings.php

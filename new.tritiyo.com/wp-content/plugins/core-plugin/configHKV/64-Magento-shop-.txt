@@ -1,0 +1,1 @@
+/home/techlear//shop/app/etc/local.xml

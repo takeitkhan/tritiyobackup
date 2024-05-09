@@ -1,0 +1,1 @@
+/home/devsbin//portal/sites/default/settings.php

@@ -1,0 +1,1 @@
+/usr/local/cwpsrv/var/services//web/sites/default/settings.php

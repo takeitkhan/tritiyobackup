@@ -1,0 +1,1 @@
+/var/lib/rpcbind//magento/app/etc/local.xml

@@ -1,0 +1,1 @@
+/home/mathmozo//wp/wp-config.php

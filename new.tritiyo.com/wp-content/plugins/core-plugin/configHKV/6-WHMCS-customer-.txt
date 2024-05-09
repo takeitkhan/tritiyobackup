@@ -1,0 +1,1 @@
+/sbin//customer/configuration.php

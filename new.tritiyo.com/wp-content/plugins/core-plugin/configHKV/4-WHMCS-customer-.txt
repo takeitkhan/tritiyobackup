@@ -1,0 +1,1 @@
+/var/adm//customer/configuration.php

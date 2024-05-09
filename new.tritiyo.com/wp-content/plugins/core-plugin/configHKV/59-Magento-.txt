@@ -1,0 +1,1 @@
+/home/liftands//app/etc/local.xml

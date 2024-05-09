@@ -1,0 +1,1 @@
+/root//oc/config.php

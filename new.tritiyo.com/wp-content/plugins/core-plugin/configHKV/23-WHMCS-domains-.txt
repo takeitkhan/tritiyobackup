@@ -1,0 +1,1 @@
+/run/saslauthd//domains/configuration.php

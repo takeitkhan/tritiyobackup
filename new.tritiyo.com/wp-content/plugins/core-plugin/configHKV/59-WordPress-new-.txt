@@ -1,0 +1,1 @@
+/home/liftands//new/wp-config.php

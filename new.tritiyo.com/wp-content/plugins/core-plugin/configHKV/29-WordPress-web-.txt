@@ -1,0 +1,1 @@
+/usr/local/cwpsrv/var/services//web/wp-config.php

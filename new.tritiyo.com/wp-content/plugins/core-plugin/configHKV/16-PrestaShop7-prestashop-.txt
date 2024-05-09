@@ -1,0 +1,1 @@
+///prestashop/app/config/parameters.php

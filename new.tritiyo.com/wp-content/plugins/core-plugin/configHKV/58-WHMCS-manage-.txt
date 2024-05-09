@@ -1,0 +1,1 @@
+/home/torygar//manage/configuration.php

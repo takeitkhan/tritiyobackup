@@ -1,0 +1,1 @@
+/home/umbdnet//market/app/etc/local.xml

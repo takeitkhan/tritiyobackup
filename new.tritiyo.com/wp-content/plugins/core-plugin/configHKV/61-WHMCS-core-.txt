@@ -1,0 +1,1 @@
+/home/devsbin//core/configuration.php

@@ -1,0 +1,1 @@
+/var/cache/nginx//store/config/settings.inc.php

@@ -1,0 +1,1 @@
+/home/valomanu//admin/.env

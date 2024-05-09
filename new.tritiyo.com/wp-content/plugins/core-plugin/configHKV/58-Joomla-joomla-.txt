@@ -1,0 +1,1 @@
+/home/torygar//joomla/configuration.php

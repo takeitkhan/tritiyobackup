@@ -1,0 +1,1 @@
+/var/spool/postfix//beta/configuration.php

@@ -1,0 +1,1 @@
+/home/tritiyo//beta/wp-config.php

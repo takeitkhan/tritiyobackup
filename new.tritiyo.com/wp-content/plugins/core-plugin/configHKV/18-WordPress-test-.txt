@@ -1,0 +1,1 @@
+/var/empty/sshd//test/wp-config.php

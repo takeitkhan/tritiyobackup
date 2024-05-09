@@ -1,0 +1,1 @@
+/home/torygar//clientarea/configuration.php

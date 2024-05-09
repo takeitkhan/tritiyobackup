@@ -1,0 +1,1 @@
+/var/run/opendkim//shop/app/etc/local.xml

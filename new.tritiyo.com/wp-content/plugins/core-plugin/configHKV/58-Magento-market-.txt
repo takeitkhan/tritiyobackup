@@ -1,0 +1,1 @@
+/home/torygar//market/app/etc/local.xml

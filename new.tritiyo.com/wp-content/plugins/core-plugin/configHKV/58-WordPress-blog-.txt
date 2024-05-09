@@ -1,0 +1,1 @@
+/home/torygar//blog/wp-config.php

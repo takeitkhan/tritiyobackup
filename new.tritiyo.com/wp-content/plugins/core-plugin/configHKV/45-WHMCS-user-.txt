@@ -1,0 +1,1 @@
+/home/wizretou//user/configuration.php

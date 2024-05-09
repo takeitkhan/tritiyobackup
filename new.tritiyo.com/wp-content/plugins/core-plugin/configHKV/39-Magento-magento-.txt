@@ -1,0 +1,1 @@
+/home/sensorshopbd//magento/app/etc/local.xml

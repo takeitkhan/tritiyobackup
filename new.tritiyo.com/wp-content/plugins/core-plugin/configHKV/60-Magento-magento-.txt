@@ -1,0 +1,1 @@
+/home/sadikpan//magento/app/etc/local.xml

@@ -1,0 +1,1 @@
+/var/spool/postfix//portal/wp-config.php

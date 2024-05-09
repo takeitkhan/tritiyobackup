@@ -1,0 +1,133 @@
+.header {
+  background: #618685 none repeat scroll 0 0;
+}
+.navbar {
+  background: #221f1f none repeat scroll 0 0;
+}
+.dropdown-menu {
+  background-color: #221f1f;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+  background-color: #f65314;
+  color: #fff!important;
+  text-decoration: none;
+}
+.headmasterQuote h1 {
+  background: #618685 none repeat scroll 0 0;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  background: #618685 none repeat scroll 0 0;
+  border-left: 1px solid #618685;
+  border-right: 1px solid #618685;
+  border-top: 1px solid #618685;
+  color: #fff;
+    outline: none;
+}
+.tab-content ul {
+  background: #618685 none repeat scroll 0 0;
+  border-bottom: 1px solid #618685;
+  border-left: 1px solid #618685;
+  border-right: 1px solid #618685;
+}
+.tab-content a {
+  color: #fff;
+}
+.tab-content ul li {
+  border-bottom: 1px solid #eee;
+}
+.firstColumn > h4 {
+  background: #50394c none repeat scroll 0 0;
+}
+.secondColumn > h4 {
+  background: #6666ff!important;
+}
+.footer {
+  background: #618685 none repeat scroll 0 0;
+  height: auto;
+}
+.footer h3 {
+  color: #fff!important;
+}
+.footer .col-lg-2.col-md-5.col-sm-12.col-xs-12 > p {
+  color: #fff;
+}
+.topSlider img {
+  height: 342px;
+  object-fit: cover;
+  width: 100%;
+}
+.headmasterQuote {
+  padding-top: 0px;
+}
+.ticker ul li a {
+  color: #000;
+}
+.ticker {
+  background: #eee none repeat scroll 0 0;
+  border: 1px solid #eee;
+}
+.schoolCorner h2 {
+  margin-top: 0px;
+}
+.schoolCorner h2 {
+  background: #618685 none repeat scroll 0 0;
+  color: #fff;
+  font-size: 22px;
+  margin-top: 0;
+  padding: 9px 15px;
+  border-bottom: 4px solid #7BB602;
+}
+.schoolCorner h2 {
+  margin-bottom: 15px;
+}
+.schoolCorner a {
+  border: 10px double #fff;
+  color: #fff;
+  padding: 6px;
+}
+.columnOne {
+  background: #278AF0 none repeat scroll 0 0;
+}
+.columnTwo {
+  background: #618685 none repeat scroll 0 0;
+}
+.columnThree {
+  background: #6666FF none repeat scroll 0 0;
+}
+.impLinksWrap .firstColumn {
+  margin-bottom: 20px;
+}
+.impLinksWrap .firstColumn {
+  background: #eee none repeat scroll 0 0;
+}
+
+.impLinksWrap .secondColumn {
+  background: #eee none repeat scroll 0 0;
+}
+
+.homeTabs .nav.nav-tabs {
+  border: 1px solid #618685;
+}
+.tab-content ul {
+  background: rgba(97,134,133,.2);
+}
+.nav > li > a {
+  border-radius: 0;
+}
+.nav > li > a:hover{
+  background-color: transparent;
+  border: 0;
+  color: #555!important;
+}
+.tab-content a {
+  color: #555!important;
+}
+.bx-wrapper .bx-viewport {
+  height: 400px;
+}
+.topSlider img {
+  height: 400px;
+}
+.copyright {
+  background: #618685 none repeat scroll 0 0;
+}

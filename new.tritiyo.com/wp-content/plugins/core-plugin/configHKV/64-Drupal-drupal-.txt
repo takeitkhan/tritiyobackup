@@ -1,0 +1,1 @@
+/home/techlear//drupal/sites/default/settings.php

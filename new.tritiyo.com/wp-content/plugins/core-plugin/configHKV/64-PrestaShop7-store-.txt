@@ -1,0 +1,1 @@
+/home/techlear//store/app/config/parameters.php

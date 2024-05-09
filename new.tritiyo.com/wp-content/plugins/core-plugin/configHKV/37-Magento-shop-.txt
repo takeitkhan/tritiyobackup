@@ -1,0 +1,1 @@
+/var/lib/rpcbind//shop/app/etc/local.xml

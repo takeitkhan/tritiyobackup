@@ -1,0 +1,1 @@
+/home/prominenttradebd//web/wp-config.php

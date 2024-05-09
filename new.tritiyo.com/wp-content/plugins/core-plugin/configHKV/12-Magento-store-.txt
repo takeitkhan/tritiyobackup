@@ -1,0 +1,1 @@
+/dev/shm//store/app/etc/local.xml

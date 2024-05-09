@@ -1,0 +1,1 @@
+/home/hello//app/etc/local.xml

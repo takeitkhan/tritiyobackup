@@ -1,0 +1,1 @@
+/var/ftp//wordpress/wp-config.php

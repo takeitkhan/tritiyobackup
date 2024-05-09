@@ -1,0 +1,1 @@
+/usr/libexec/dovecot//site/wp-config.php

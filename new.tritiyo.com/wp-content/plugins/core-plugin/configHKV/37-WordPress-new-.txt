@@ -1,0 +1,1 @@
+/var/lib/rpcbind//new/wp-config.php

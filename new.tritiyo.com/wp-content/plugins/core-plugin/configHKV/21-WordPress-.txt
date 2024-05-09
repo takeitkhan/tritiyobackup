@@ -1,0 +1,1 @@
+/var/lib/chrony//wp-config.php

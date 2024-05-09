@@ -1,0 +1,1 @@
+/home/beebaho//app/etc/local.xml

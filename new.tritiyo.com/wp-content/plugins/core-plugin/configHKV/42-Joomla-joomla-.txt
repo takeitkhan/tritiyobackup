@@ -1,0 +1,1 @@
+/home/beebaho//joomla/configuration.php

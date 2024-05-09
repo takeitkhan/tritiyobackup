@@ -1,0 +1,1 @@
+/home/wizretou//web/sites/default/settings.php

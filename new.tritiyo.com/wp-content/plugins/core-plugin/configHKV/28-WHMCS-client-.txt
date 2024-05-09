@@ -1,0 +1,1 @@
+/usr/local/cwpsrv//client/configuration.php

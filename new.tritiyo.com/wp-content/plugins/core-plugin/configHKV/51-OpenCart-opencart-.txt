@@ -1,0 +1,1 @@
+/var/lib/varnish//opencart/config.php

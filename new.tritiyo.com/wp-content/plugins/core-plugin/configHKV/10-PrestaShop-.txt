@@ -1,0 +1,1 @@
+/root//config/settings.inc.php

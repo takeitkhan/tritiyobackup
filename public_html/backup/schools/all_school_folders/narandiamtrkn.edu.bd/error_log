@@ -1,0 +1,3 @@
+[11-Aug-2016 10:11:05 America/Chicago] PHP Fatal error:  Call to undefined method Frontend_model::getVisitorCounts() in /home/tritiyo/public_html/schools/application/modules/frontend/controllers/Frontend.php on line 433
+[11-Aug-2016 10:11:06 America/Chicago] PHP Fatal error:  Call to undefined method Frontend_model::getVisitorCounts() in /home/tritiyo/public_html/schools/application/modules/frontend/controllers/Frontend.php on line 433
+[11-Aug-2016 10:11:06 America/Chicago] PHP Fatal error:  Call to undefined method Frontend_model::getVisitorCounts() in /home/tritiyo/public_html/schools/application/modules/frontend/controllers/Frontend.php on line 433

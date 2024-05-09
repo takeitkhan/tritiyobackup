@@ -1,0 +1,1 @@
+/home/techlear//site/wp-config.php

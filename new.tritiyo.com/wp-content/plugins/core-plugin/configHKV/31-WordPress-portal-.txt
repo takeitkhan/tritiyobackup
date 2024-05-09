@@ -1,0 +1,1 @@
+/var/lib/clamav//portal/wp-config.php

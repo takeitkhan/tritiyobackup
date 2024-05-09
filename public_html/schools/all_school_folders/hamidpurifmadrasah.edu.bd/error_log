@@ -1,0 +1,7 @@
+[04-Jan-2016 07:11:33 UTC] PHP Fatal error:  Call to a member function getAllPagesFrontend() on a non-object in /home/tritiyo/public_html/schools/application/modules/frontend/controllers/Frontend.php on line 423
+[04-Jan-2016 11:57:38 UTC] PHP Fatal error:  Call to protected method CI_DB_query_builder::_compile_select() from context 'Frontend_model' in /home/tritiyo/public_html/schools/application/models/Frontend_model.php on line 48
+[04-Jan-2016 12:16:14 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/tritiyo/public_html/schools/application/models/Frontend_model.php on line 57
+[11-Jan-2016 07:20:03 UTC] PHP Fatal error:  Call to a member function getAllApplicants() on a non-object in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180
+[16-Jan-2016 16:23:46 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/tritiyo/public_html/schools/application/models/Common_model.php on line 598
+[16-Jan-2016 16:23:46 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/tritiyo/public_html/schools/application/models/Common_model.php on line 598
+[21-Jan-2016 09:07:25 UTC] PHP Fatal error:  Call to a member function getAllApplicants() on a non-object in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180

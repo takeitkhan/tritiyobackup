@@ -1,0 +1,1 @@
+/home/wizretou//magento/app/etc/local.xml

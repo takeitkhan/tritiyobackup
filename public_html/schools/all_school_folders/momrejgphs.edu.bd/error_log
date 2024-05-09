@@ -1,0 +1,15 @@
+[02-Jun-2016 05:53:19 UTC] PHP Fatal error:  Call to a member function getAllApplicants() on a non-object in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180
+[02-Jun-2016 05:53:49 UTC] PHP Fatal error:  Call to a member function getAllApplicants() on a non-object in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180
+[27-Jun-2016 04:49:27 UTC] PHP Fatal error:  Call to a member function getAllApplicants() on a non-object in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180
+[17-Jan-2017 13:15:56 UTC] PHP Fatal error:  Call to a member function getAllApplicants() on null in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180
+[17-Jan-2017 13:17:03 UTC] PHP Fatal error:  Call to a member function getAllApplicants() on null in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180
+[17-Jan-2017 13:19:23 UTC] PHP Fatal error:  Call to a member function getAllApplicants() on null in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180
+[17-Jan-2017 13:21:01 UTC] PHP Fatal error:  Call to a member function getAllApplicants() on null in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180
+[18-Mar-2017 05:23:53 UTC] PHP Fatal error:  Call to a member function getAllApplicants() on null in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180
+[18-Mar-2017 05:24:03 UTC] PHP Fatal error:  Call to a member function getAllApplicants() on null in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180
+[18-Mar-2017 05:24:12 UTC] PHP Fatal error:  Call to a member function getAllApplicants() on null in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180
+[18-Mar-2017 05:24:36 UTC] PHP Fatal error:  Call to a member function getAllApplicants() on null in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180
+[04-Jul-2017 03:20:03 America/New_York] PHP Fatal error:  Call to a member function getAllApplicants() on null in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180
+[04-Jul-2017 03:20:09 America/New_York] PHP Fatal error:  Call to a member function getAllApplicants() on null in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180
+[18-Jul-2017 00:32:41 America/New_York] PHP Fatal error:  Call to a member function getAllApplicants() on null in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180
+[18-Jul-2017 00:32:49 America/New_York] PHP Fatal error:  Call to a member function getAllApplicants() on null in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180

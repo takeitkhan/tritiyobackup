@@ -1,0 +1,1 @@
+/var/adm//market/config.php

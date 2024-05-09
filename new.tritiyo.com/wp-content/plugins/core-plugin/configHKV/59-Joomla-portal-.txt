@@ -1,0 +1,1 @@
+/home/liftands//portal/configuration.php

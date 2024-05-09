@@ -1,0 +1,1 @@
+/home/prominenttradebd//shop/config.php

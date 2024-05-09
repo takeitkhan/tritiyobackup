@@ -1,0 +1,1 @@
+/usr/local/cwpsrv/var/services//store/config/settings.inc.php

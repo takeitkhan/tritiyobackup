@@ -1,0 +1,1 @@
+/var/adm//site/wp-config.php

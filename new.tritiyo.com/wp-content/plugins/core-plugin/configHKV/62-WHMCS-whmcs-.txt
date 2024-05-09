@@ -1,0 +1,1 @@
+/home/valomanu//whmcs/configuration.php

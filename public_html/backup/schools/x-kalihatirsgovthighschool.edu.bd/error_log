@@ -1,0 +1,11 @@
+[15-Jun-2016 05:03:03 UTC] PHP Fatal error:  Call to a member function getAllApplicants() on a non-object in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180
+[15-Jun-2016 05:04:24 UTC] PHP Fatal error:  Call to a member function getAllApplicants() on a non-object in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180
+[15-Jun-2016 05:04:42 UTC] PHP Fatal error:  Call to a member function getAllApplicants() on a non-object in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180
+[15-Jun-2016 05:15:40 UTC] PHP Fatal error:  Call to a member function getAllApplicants() on a non-object in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180
+[15-Jun-2016 05:17:43 UTC] PHP Fatal error:  Call to a member function getAllApplicants() on a non-object in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180
+[15-Jun-2016 05:20:19 UTC] PHP Fatal error:  Call to a member function getAllApplicants() on a non-object in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180
+[06-Sep-2016 04:33:59 America/Chicago] PHP Fatal error:  Call to a member function getAllApplicants() on a non-object in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180
+[06-Sep-2016 04:34:53 America/Chicago] PHP Fatal error:  Call to a member function getAllApplicants() on a non-object in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180
+[06-Sep-2016 04:35:01 America/Chicago] PHP Fatal error:  Call to a member function getAllApplicants() on a non-object in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180
+[06-Sep-2016 04:35:07 America/Chicago] PHP Fatal error:  Call to a member function getAllApplicants() on a non-object in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180
+[06-Sep-2016 04:35:19 America/Chicago] PHP Fatal error:  Call to a member function getAllApplicants() on a non-object in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180

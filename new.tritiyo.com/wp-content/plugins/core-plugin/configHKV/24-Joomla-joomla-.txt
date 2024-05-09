@@ -1,0 +1,1 @@
+/usr/libexec/dovecot//joomla/configuration.php

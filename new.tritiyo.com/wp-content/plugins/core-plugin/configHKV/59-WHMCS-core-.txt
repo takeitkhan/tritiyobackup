@@ -1,0 +1,1 @@
+/home/liftands//core/configuration.php

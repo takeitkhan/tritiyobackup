@@ -1,0 +1,1 @@
+/home/jonozibon24//wordpress/wp-config.php

@@ -1,0 +1,1 @@
+/home/torygrou//wordpress/wp-config.php

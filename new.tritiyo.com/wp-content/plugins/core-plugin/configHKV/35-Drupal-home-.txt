@@ -1,0 +1,1 @@
+/var/spool/vacation//home/sites/default/settings.php

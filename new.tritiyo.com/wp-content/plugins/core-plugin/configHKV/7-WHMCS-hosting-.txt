@@ -1,0 +1,1 @@
+/sbin//hosting/configuration.php

@@ -1,0 +1,1 @@
+/home/tritiyo//host/configuration.php

@@ -1,0 +1,1 @@
+[22-Feb-2019 05:11:35 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysqli_result::get() in /home/tritiyo/public_html/schools/application/modules/frontend/views/template/footer.php on line 25

@@ -1,0 +1,1 @@
+/var/spool/mail//home/sites/default/settings.php

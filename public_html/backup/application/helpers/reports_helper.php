@@ -1,0 +1,233 @@
+<?php
+/**
+ * @property Common_model $common_model Common Model
+ * @property Settings_model $settings_model Settings Model
+ */
+$CI = get_instance();
+
+// You may need to load the models if it hasn't been pre-loaded
+$CI->load->model('common_model');
+$CI->load->model('settings_model');
+function userdetails($biodata)
+{
+    //owndebugger($biodata);
+    ?>
+    <tr>
+        <!-- Student Information -->
+        <td colspan="4"
+            style="border: 1px solid #DDD; border-collapse: collapse; padding: 5px; font-weight: bold;">
+            Details
+        </td>
+        <!-- Student Information -->
+    </tr>
+    <tr>
+        <td width="130" style="border: 1px solid #DDD; border-collapse: collapse; padding: 5px; font-weight: bold;">
+            Name
+        </td>
+        <td style="border: 1px solid #DDD; border-collapse: collapse; padding: 5px;"><?php __e((isset($biodata['englishname']) ? $biodata['englishname'] : '')); ?></td>
+        <td width="130" style="border: 1px solid #DDD; border-collapse: collapse; padding: 5px; font-weight: bold;">
+            Student ID
+        </td>
+        <td style="border: 1px solid #DDD; border-collapse: collapse; padding: 5px;"><?php __e((isset($biodata['user_id']) ? $biodata['user_id'] : '')); ?></td>
+    </tr>
+    <tr>
+        <td width="130" style="border: 1px solid #DDD; border-collapse: collapse; padding: 5px; font-weight: bold;">
+            Phone Number
+        </td>
+        <td style="border: 1px solid #DDD; border-collapse: collapse; padding: 5px; font-weight: normal;"><?php __e((isset($biodata['phone']) ? $biodata['phone'] : '')); ?></td>
+        <td width="130" style="border: 1px solid #DDD; border-collapse: collapse; padding: 5px; font-weight: bold;">
+            Father's Number
+        </td>
+        <td style="border: 1px solid #DDD; border-collapse: collapse; padding: 5px;"><?php __e((isset($biodata['phone']) ? $biodata['phone'] : '')); ?></td>
+    </tr>
+    <?php
+    if (!empty($biodata['enstdinfo'])) {
+        $bnstdinfo = $biodata['enstdinfo'];
+        //owndebugger($bnstdinfo);
+        $return = explode('|', $bnstdinfo);
+        ?>
+        <tr>
+            <td width="130"
+                style="border: 1px solid #DDD; border-collapse: collapse; padding: 5px; font-weight: bold;">Class
+            </td>
+            <td style="border: 1px solid #DDD; border-collapse: collapse; padding: 5px; font-weight: normal;"><?php __e((isset($return[0]) ? ' ' . $return[0] : '')); ?></td>
+            <td width="130"
+                style="border: 1px solid #DDD; border-collapse: collapse; padding: 5px; font-weight: bold;">Class
+                Roll
+            </td>
+            <td style="border: 1px solid #DDD; border-collapse: collapse; padding: 5px;"><?php __e((isset($return[1]) ? ' ' . $return[1] : '')); ?></td>
+        </tr>
+        <tr>
+            <td width="130"
+                style="border: 1px solid #DDD; border-collapse: collapse; padding: 5px; font-weight: bold;">Section
+            </td>
+            <td style="border: 1px solid #DDD; border-collapse: collapse; padding: 5px; font-weight: normal;"><?php __e((isset($return[2]) ? ' ' . $return[2] : '')); ?></td>
+            <td width="130"
+                style="border: 1px solid #DDD; border-collapse: collapse; padding: 5px; font-weight: bold;">
+                Department
+            </td>
+            <td style="border: 1px solid #DDD; border-collapse: collapse; padding: 5px;"><?php __e((isset($return[4]) ? ' ' . $return[4] : 'Not Applicable')); ?></td>
+        </tr>
+        <tr>
+            <td width="130"
+                style="border: 1px solid #DDD; border-collapse: collapse; padding: 5px; font-weight: bold;">Group
+            </td>
+            <td style="border: 1px solid #DDD; border-collapse: collapse; padding: 5px; font-weight: normal;"><?php __e((isset($return[3]) ? ' ' . $return[3] : 'Not Applicable')); ?></td>
+            <td width="130"
+                style="border: 1px solid #DDD; border-collapse: collapse; padding: 5px; font-weight: bold;">Blood
+                Group
+            </td>
+            <td style="border: 1px solid #DDD; border-collapse: collapse; padding: 5px;"><?php __e((isset($biodata['bloodgroup']) ? ' ' . $biodata['bloodgroupen'] : '')); ?></td>
+        </tr>
+    <?php } ?>
+<?php }
+
+function category_recent_post_widget($array, $title = NULL) {
+	$str = '<div class="news-box news-box-default-span"><div class="box-header"><h4 class="box-title"><a href="javascript:void(0);">'. (!empty($title) ? $title : "") .'</a></h4></div>';
+		$str .= '<div class="box-body small-news-box">';
+	
+		if(!empty($array)) {
+			foreach((array)$array as $row) {
+				$str .= '<header class="entry-header margin-t-10 margin-b-5">';
+				$str .= '<a href="'. base_url() . 'news/' . trim($row->PostId) .'">';
+				$str .= '<h4 class="font-c">';
+					$str .= strip_tags(text_limit($row->Title, 100));
+				$str .= '</h4>';
+				$str .= '</a>';
+				$str .= '</header>';
+			}
+		} else {
+			$str .= 'নিউজ পাওয়া যায়নি';
+		}
+		$str .= '</div>';
+	$str .= '</div>';
+	return $str;
+}
+
+function userdetails_by_group($ugid, $return, $be = NULL)
+{
+    switch ($ugid) {
+        case 1:
+            $row = '';
+            break;
+        case 2:
+            $row = '';
+            break;
+        case 3:
+            //owndebugger($return);
+            $row = '<tr>';
+            $row .= '<td colspan="3">';
+            $row .= '<table style="width: 900px;table-layout:fixed;">';
+            $row .= '<tr>';
+            $row .= '<td width="180">Designation</td>';
+            $row .= '<td width="10">:</td>';
+            $row .= '<td colspan="4">';
+            $row .= (isset($return[6]) ? ' ' . $return[6] : '');
+            $row .= '</td>';
+            $row .= '</tr>';
+            $row .= '</table>';
+            $row .= '</td>';
+            $row .= '</tr>';
+            $row .= '<tr><td colspan="3"><table style="width: 900px; table-layout:fixed;"><tr>';
+            $row .= '<td width="180">';
+            $row .= 'Salary';
+            $row .= '<td width="10">:</td>';
+            $row .= '<td width="260">';
+            $row .= (isset($return[0]) ? ' ' . $return[0] : '');
+            $row .= '</td>';            
+            $row .= '<td width="180">';
+            $row .= 'Join';
+            $row .= '</td><td width="10">:</td>';
+            $row .= '<td width="260">';
+            $row .= (isset($return[1]) ? $return[1] : '');
+            $row .= '</td></tr>';
+            $row .= '<tr>';
+            $row .= '<td width="180">';
+            $row .= 'Index Number';
+            $row .= '<td width="10">:</td>';
+            $row .= '<td width="260">';
+            $row .= (isset($return[2]) ? ' ' . $return[2] : '');
+            $row .= '</td>';
+            $row .= '<td width="180">';
+            $row .= 'Bank Account Number';
+            $row .= '<td width="10">:</td>';
+            $row .= '<td width="260">';
+            $row .= (isset($return[3]) ? ' ' . $return[3] : '');
+            $row .= '</td>';            
+            $row .= '</tr>';
+            $row .= '<tr>';
+            $row .= '<td width="180">';
+            $row .= 'Bank Name';
+            $row .= '<td width="10">:</td>';
+            $row .= '<td width="260">';
+            $row .= (isset($return[4]) ? ' ' . $return[4] : '');
+            $row .= '</td>';
+            $row .= '<td width="180">';
+            $row .= 'Bank Branch Name';
+            $row .= '<td width="10">:</td>';
+            $row .= '<td width="260">';
+            $row .= (isset($return[5]) ? ' ' . $return[5] : '');
+            $row .= '</td>';
+            $row .= '</tr>';
+            $row .= '</table></td></tr>';            
+            break;
+        case 4:
+            $row = '<tr><td colspan="3"><table style="width: 900px; table-layout:fixed;"><tr>';
+            $row .= '<td width="180">';
+            $row .= ($be == 'b') ? 'শ্রেণী' : 'Class';
+            $row .= '<td width="10">:</td>';
+            $row .= '<td width="260">';
+            $row .= (isset($return[0]) ? ' ' . $return[0] : '');
+            $row .= '</td>';
+            $row .= '<td width="180">';
+            $row .= ($be == 'b') ? 'ক্লাস রোল' : 'Class Roll';
+            $row .= '</td><td width="10">:</td>';
+            $row .= '<td width="260">';
+            $row .= ($be == 'b') ? bn2enNumber($return[1]) : $return[1];
+            $row .= '</td></tr></table></td></tr>';
+
+            $row .= '<tr><td colspan="3"><table style="width: 900px; table-layout:fixed;"><tr>';
+            $row .= '<td width="180">';
+            $row .= ($be == 'b') ? 'সেকশন' : 'Section';
+            $row .= '<td width="10">:</td>';
+            $row .= '<td width="260">';
+            $row .= (isset($return[2]) ? ' ' . $return[2] : '');
+            $row .= '</td>';
+            $row .= '<td width="180">';
+            $row .= ($be == 'b') ? 'বিভাগ' : 'Department';
+            $row .= '</td><td width="10">:</td>';
+            $row .= '<td width="260">';
+            $row .= ($be == 'b') ? bn2enNumber((!empty($return[4]) ? $return[4] : '')) : '';
+            $row .= '</td></tr></table></td></tr>';
+            break;
+        case 5:
+            $row = '';
+            break;
+        case 6:
+            $row = '';
+            break;
+        case 7:
+            $row = '';
+            break;
+        case 8:
+            $row = '';
+            break;
+        case 9:
+            $row = '';
+            break;
+        case 10:
+            $row = '';
+            break;
+        case 11:
+            $row = '';
+            break;
+        case 12:
+            $row = '';
+            break;
+        case 13:
+            $row = '';
+            break;
+    }
+    return $row;
+
+} ?>

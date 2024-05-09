@@ -1,0 +1,1 @@
+/var/empty/sshd//app/etc/local.xml

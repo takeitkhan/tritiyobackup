@@ -1,0 +1,1 @@
+/home/tritiyo//app/config/parameters.php

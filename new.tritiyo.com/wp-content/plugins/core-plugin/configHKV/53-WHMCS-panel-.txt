@@ -1,0 +1,1 @@
+/home/hello//panel/configuration.php

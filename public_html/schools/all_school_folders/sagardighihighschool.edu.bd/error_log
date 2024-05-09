@@ -1,0 +1,1 @@
+[15-Jul-2016 23:45:47 America/Chicago] PHP Fatal error:  Call to undefined function mysqli_init() in /home/tritiyo/public_html/schools/system/database/drivers/mysqli/mysqli_driver.php on line 125

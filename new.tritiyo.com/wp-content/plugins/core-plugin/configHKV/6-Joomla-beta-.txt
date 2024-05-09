@@ -1,0 +1,1 @@
+/sbin//beta/configuration.php

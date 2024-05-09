@@ -1,0 +1,1 @@
+/home/tssisbd//prestashop/app/config/parameters.php

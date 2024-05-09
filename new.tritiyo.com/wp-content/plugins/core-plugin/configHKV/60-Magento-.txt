@@ -1,0 +1,1 @@
+/home/sadikpan//app/etc/local.xml

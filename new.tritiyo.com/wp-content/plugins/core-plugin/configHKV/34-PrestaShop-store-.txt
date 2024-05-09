@@ -1,0 +1,1 @@
+/var/vmail//store/config/settings.inc.php

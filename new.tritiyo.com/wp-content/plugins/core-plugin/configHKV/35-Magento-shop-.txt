@@ -1,0 +1,1 @@
+/var/spool/vacation//shop/app/etc/local.xml

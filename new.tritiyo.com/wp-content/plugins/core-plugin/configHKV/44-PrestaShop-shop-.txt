@@ -1,0 +1,1 @@
+/var/cache/nginx//shop/config/settings.inc.php

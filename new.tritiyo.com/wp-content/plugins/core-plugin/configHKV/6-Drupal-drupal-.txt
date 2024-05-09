@@ -1,0 +1,1 @@
+/sbin//drupal/sites/default/settings.php

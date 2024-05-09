@@ -1,0 +1,1 @@
+/home/tritiyo//app/etc/local.xml

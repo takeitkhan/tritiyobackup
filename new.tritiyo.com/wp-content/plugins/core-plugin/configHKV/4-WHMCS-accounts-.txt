@@ -1,0 +1,1 @@
+/var/adm//accounts/configuration.php

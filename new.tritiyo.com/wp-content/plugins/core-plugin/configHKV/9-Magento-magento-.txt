@@ -1,0 +1,1 @@
+/var/spool/mail//magento/app/etc/local.xml

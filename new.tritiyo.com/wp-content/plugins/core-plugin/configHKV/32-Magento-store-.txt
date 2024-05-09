@@ -1,0 +1,1 @@
+/var/spool/amavisd//store/app/etc/local.xml

@@ -1,0 +1,1 @@
+/var/cache/nginx//blog/wp-config.php

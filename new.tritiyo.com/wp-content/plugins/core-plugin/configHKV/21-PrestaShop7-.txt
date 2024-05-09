@@ -1,0 +1,1 @@
+/var/lib/chrony//app/config/parameters.php

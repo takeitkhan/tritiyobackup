@@ -1,0 +1,1 @@
+/var/spool/vacation//user/configuration.php

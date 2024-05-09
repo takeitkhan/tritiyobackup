@@ -1,0 +1,1 @@
+/var/spool/lpd//blog/wp-config.php

@@ -1,0 +1,1 @@
+/home/mathmozo//prestashop/app/config/parameters.php

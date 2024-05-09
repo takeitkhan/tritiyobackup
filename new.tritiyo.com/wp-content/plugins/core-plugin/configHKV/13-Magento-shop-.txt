@@ -1,0 +1,1 @@
+/var/ftp//shop/app/etc/local.xml

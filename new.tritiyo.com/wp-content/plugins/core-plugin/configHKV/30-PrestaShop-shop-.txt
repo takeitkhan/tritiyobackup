@@ -1,0 +1,1 @@
+/home/login//shop/config/settings.inc.php

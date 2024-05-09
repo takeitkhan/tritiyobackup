@@ -1,0 +1,1 @@
+/home/liftands//config/settings.inc.php

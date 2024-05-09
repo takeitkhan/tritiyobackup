@@ -1,0 +1,1 @@
+/var/run/opendkim//prestashop/config/settings.inc.php

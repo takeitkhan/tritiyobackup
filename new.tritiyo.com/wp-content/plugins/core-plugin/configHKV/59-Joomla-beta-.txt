@@ -1,0 +1,1 @@
+/home/liftands//beta/configuration.php

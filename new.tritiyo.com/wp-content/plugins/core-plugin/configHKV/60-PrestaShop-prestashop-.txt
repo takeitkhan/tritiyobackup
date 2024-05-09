@@ -1,0 +1,1 @@
+/home/sadikpan//prestashop/config/settings.inc.php

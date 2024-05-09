@@ -1,0 +1,1 @@
+/home/tritiyo//wp/configuration.php

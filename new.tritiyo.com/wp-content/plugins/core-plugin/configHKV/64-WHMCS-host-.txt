@@ -1,0 +1,1 @@
+/home/techlear//host/configuration.php

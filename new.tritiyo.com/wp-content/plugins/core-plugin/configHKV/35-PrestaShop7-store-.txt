@@ -1,0 +1,1 @@
+/var/spool/vacation//store/app/config/parameters.php

@@ -1,0 +1,1 @@
+/home/tritiyo//magento/app/etc/local.xml

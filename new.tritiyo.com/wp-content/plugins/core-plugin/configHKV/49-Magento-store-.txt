@@ -1,0 +1,1 @@
+/home/mathmozo//store/app/etc/local.xml

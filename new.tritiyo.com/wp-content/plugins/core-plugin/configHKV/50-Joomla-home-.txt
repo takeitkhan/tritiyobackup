@@ -1,0 +1,1 @@
+/dev/null//home/configuration.php

@@ -1,0 +1,1 @@
+/home/wizretou//prestashop/config/settings.inc.php

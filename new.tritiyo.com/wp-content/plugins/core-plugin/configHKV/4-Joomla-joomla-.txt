@@ -1,0 +1,1 @@
+/var/adm//joomla/configuration.php

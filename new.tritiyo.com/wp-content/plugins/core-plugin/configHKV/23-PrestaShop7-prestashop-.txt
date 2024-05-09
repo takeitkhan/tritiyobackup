@@ -1,0 +1,1 @@
+/run/saslauthd//prestashop/app/config/parameters.php

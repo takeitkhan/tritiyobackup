@@ -1,0 +1,1 @@
+/var/lib/rpcbind//shop/config/settings.inc.php

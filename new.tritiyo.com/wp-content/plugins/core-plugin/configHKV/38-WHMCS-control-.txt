@@ -1,0 +1,1 @@
+/home/roydomi//control/configuration.php

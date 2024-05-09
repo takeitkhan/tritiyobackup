@@ -1,0 +1,1 @@
+/var/spool/vacation//prestashop/app/config/parameters.php

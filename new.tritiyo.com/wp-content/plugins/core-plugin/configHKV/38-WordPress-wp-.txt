@@ -1,0 +1,1 @@
+/home/roydomi//wp/wp-config.php

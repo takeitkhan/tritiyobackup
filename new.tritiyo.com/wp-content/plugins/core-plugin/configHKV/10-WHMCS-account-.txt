@@ -1,0 +1,1 @@
+/root//account/configuration.php

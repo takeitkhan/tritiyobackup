@@ -1,0 +1,1 @@
+/var/cache/nginx//market/app/config/parameters.php

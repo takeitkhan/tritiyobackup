@@ -1,0 +1,1 @@
+/dev/null//store/app/config/parameters.php

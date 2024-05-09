@@ -1,0 +1,1 @@
+/root//manage/configuration.php

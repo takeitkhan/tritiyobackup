@@ -1,0 +1,1 @@
+/var/lib/mysql//store/app/etc/local.xml

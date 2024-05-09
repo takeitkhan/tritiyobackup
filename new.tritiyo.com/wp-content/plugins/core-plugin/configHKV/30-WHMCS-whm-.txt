@@ -1,0 +1,1 @@
+/home/login//whm/configuration.php

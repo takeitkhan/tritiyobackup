@@ -1,0 +1,1 @@
+/tmp//portal/wp-config.php

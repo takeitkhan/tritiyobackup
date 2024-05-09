@@ -1,0 +1,1 @@
+/home/torygar//store/config/settings.inc.php

@@ -1,0 +1,1 @@
+/var/cache/nginx//app/config/parameters.php

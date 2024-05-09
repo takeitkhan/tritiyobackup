@@ -1,0 +1,1 @@
+/var/spool/mail//supports/configuration.php

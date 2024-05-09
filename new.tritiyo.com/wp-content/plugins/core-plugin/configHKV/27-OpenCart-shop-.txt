@@ -1,0 +1,1 @@
+/var/named//shop/config.php

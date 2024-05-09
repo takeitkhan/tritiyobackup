@@ -1,0 +1,1 @@
+/home/mathmozo//magento/app/etc/local.xml

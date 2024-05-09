@@ -1,0 +1,1 @@
+/home/tssisbd//magento/app/etc/local.xml

@@ -1,0 +1,1 @@
+/home/tssisbd//clientes/configuration.php

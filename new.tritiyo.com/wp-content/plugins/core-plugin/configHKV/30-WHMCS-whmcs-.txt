@@ -1,0 +1,1 @@
+/home/login//whmcs/configuration.php

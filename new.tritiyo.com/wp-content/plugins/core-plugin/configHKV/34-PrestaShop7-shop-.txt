@@ -1,0 +1,1 @@
+/var/vmail//shop/app/config/parameters.php

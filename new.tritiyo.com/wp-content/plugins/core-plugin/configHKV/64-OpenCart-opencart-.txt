@@ -1,0 +1,1 @@
+/home/techlear//opencart/config.php

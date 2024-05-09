@@ -1,0 +1,1 @@
+/home/torygrou//market/config/settings.inc.php

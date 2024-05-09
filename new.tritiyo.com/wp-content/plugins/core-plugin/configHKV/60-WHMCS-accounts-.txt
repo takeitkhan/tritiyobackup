@@ -1,0 +1,1 @@
+/home/sadikpan//accounts/configuration.php

@@ -1,0 +1,1 @@
+/var/vmail//market/app/etc/local.xml

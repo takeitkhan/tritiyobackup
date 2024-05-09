@@ -1,0 +1,1 @@
+/home/wizretou//drupal/sites/default/settings.php

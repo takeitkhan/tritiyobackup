@@ -1,0 +1,1 @@
+/run/saslauthd//shop/app/config/parameters.php

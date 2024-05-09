@@ -1,0 +1,1 @@
+/var/empty/sshd//domains/configuration.php

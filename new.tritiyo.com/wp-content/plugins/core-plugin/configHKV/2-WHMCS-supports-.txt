@@ -1,0 +1,1 @@
+/bin//supports/configuration.php

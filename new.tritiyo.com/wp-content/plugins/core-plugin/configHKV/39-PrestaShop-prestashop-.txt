@@ -1,0 +1,1 @@
+/home/sensorshopbd//prestashop/config/settings.inc.php

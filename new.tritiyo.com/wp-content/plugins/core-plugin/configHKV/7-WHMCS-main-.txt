@@ -1,0 +1,1 @@
+/sbin//main/configuration.php

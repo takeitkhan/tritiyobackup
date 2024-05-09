@@ -1,0 +1,1 @@
+/var/spool/mail//store/app/config/parameters.php

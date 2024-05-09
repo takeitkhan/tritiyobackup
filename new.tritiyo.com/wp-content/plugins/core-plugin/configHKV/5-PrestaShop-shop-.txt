@@ -1,0 +1,1 @@
+/var/spool/lpd//shop/config/settings.inc.php

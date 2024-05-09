@@ -1,0 +1,1 @@
+/run/saslauthd//client/configuration.php

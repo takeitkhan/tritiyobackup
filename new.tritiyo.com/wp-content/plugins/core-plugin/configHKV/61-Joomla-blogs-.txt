@@ -1,0 +1,1 @@
+/home/devsbin//blogs/configuration.php

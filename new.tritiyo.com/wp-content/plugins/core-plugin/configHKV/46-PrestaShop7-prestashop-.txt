@@ -1,0 +1,1 @@
+/home/umbdnet//prestashop/app/config/parameters.php

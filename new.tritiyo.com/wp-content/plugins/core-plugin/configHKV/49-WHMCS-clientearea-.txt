@@ -1,0 +1,1 @@
+/home/mathmozo//clientearea/configuration.php

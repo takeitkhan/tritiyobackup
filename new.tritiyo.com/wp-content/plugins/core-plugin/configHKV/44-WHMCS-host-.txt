@@ -1,0 +1,1 @@
+/var/cache/nginx//host/configuration.php

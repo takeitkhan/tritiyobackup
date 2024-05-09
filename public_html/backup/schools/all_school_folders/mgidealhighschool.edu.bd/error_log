@@ -1,0 +1,1 @@
+[11-Jan-2017 08:33:27 UTC] PHP Fatal error:  Call to a member function getAllApplicants() on null in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180

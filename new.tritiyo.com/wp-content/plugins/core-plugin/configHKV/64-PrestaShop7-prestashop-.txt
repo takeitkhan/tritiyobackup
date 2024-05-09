@@ -1,0 +1,1 @@
+/home/techlear//prestashop/app/config/parameters.php

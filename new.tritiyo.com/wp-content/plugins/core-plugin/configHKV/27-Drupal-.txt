@@ -1,0 +1,1 @@
+/var/named//sites/default/settings.php

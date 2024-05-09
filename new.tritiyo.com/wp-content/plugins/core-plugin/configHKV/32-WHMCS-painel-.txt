@@ -1,0 +1,1 @@
+/var/spool/amavisd//painel/configuration.php

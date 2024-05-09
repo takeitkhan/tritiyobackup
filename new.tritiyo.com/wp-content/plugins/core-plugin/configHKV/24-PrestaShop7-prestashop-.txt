@@ -1,0 +1,1 @@
+/usr/libexec/dovecot//prestashop/app/config/parameters.php

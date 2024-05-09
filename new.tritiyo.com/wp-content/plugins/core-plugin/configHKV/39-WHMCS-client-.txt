@@ -1,0 +1,1 @@
+/home/sensorshopbd//client/configuration.php

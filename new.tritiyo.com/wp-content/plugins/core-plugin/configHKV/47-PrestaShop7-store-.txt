@@ -1,0 +1,1 @@
+/home/tssisbd//store/app/config/parameters.php

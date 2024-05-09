@@ -1,0 +1,1 @@
+/var/lib/chrony//clientarea/configuration.php

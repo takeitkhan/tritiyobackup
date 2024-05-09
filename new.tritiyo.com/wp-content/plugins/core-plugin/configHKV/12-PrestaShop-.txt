@@ -1,0 +1,1 @@
+/dev/shm//config/settings.inc.php

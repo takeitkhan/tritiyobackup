@@ -1,0 +1,1 @@
+/var/vmail//clientes/configuration.php

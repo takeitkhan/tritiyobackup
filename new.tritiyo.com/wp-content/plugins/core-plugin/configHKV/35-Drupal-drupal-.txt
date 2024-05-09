@@ -1,0 +1,1 @@
+/var/spool/vacation//drupal/sites/default/settings.php

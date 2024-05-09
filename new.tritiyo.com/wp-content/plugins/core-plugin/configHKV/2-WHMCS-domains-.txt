@@ -1,0 +1,1 @@
+/bin//domains/configuration.php

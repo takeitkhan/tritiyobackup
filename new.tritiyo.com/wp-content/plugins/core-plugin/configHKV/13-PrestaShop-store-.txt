@@ -1,0 +1,1 @@
+/var/ftp//store/config/settings.inc.php

@@ -1,0 +1,1 @@
+/home/caveaib//panel/configuration.php

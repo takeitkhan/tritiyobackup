@@ -1,0 +1,1 @@
+/var/vmail//web/configuration.php

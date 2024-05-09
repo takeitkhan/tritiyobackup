@@ -1,0 +1,1 @@
+/home/prominenttradebd//manager/configuration.php

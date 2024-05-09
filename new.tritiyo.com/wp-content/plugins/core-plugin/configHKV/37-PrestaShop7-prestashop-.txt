@@ -1,0 +1,1 @@
+/var/lib/rpcbind//prestashop/app/config/parameters.php

@@ -1,0 +1,1 @@
+/home/caveaib//beta/wp-config.php

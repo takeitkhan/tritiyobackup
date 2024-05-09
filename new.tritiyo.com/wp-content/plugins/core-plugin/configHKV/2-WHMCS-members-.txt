@@ -1,0 +1,1 @@
+/bin//members/configuration.php

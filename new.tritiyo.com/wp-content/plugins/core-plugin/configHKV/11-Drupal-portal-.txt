@@ -1,0 +1,1 @@
+/usr/games//portal/sites/default/settings.php

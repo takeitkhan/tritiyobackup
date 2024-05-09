@@ -1,0 +1,1 @@
+/home/caveaib//portal/wp-config.php

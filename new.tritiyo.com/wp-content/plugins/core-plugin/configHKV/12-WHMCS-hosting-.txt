@@ -1,0 +1,1 @@
+/dev/shm//hosting/configuration.php

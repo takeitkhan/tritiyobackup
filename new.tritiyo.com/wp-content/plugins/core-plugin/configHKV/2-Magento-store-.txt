@@ -1,0 +1,1 @@
+/bin//store/app/etc/local.xml

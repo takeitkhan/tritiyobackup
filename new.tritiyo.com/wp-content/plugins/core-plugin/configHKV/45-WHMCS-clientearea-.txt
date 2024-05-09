@@ -1,0 +1,1 @@
+/home/wizretou//clientearea/configuration.php

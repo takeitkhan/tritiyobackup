@@ -1,0 +1,1 @@
+/home/devsbin//cp/configuration.php

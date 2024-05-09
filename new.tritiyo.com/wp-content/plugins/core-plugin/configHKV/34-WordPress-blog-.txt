@@ -1,0 +1,1 @@
+/var/vmail//blog/wp-config.php

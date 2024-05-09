@@ -1,0 +1,1 @@
+/home/roydomi//prestashop/config/settings.inc.php

@@ -1,0 +1,1 @@
+/home/sadikpan//app/config/parameters.php

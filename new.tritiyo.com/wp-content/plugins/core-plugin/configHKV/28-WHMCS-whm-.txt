@@ -1,0 +1,1 @@
+/usr/local/cwpsrv//whm/configuration.php

@@ -1,0 +1,1 @@
+/home/beebaho//panel/configuration.php

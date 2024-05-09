@@ -1,0 +1,1 @@
+/var/lib/rpcbind//market/app/etc/local.xml

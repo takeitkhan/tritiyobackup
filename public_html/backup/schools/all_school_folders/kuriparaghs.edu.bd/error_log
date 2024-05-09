@@ -1,0 +1,3 @@
+[04-Jan-2016 06:52:21 UTC] PHP Fatal error:  Call to a member function getAllPagesFrontend() on a non-object in /home/tritiyo/public_html/schools/application/modules/frontend/controllers/Frontend.php on line 419
+[18-Mar-2017 13:37:11 UTC] PHP Fatal error:  Call to a member function getAllApplicants() on null in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180
+[18-Mar-2017 13:37:35 UTC] PHP Fatal error:  Call to a member function getAllApplicants() on null in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180

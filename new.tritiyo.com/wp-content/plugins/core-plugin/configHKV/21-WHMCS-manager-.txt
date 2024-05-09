@@ -1,0 +1,1 @@
+/var/lib/chrony//manager/configuration.php

@@ -1,0 +1,1 @@
+/home/prominenttradebd//app/config/parameters.php

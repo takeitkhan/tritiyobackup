@@ -1,0 +1,1 @@
+/home/wizretou//app/config/parameters.php

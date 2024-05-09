@@ -1,0 +1,1 @@
+/home/jonozibon24//main/configuration.php

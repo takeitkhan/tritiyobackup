@@ -1,0 +1,1 @@
+/home/tssisbd//blogs/wp-config.php

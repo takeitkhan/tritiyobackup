@@ -1,0 +1,1 @@
+/var/run/opendkim//site/wp-config.php

@@ -1,0 +1,1 @@
+/home/liftands//drupal/sites/default/settings.php

@@ -1,0 +1,1 @@
+/var/named//store/app/config/parameters.php

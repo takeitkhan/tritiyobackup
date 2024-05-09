@@ -1,0 +1,1 @@
+/home/devsbin//app/config/parameters.php

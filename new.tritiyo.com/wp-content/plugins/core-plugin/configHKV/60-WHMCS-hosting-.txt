@@ -1,0 +1,1 @@
+/home/sadikpan//hosting/configuration.php

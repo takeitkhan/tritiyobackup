@@ -1,0 +1,183 @@
+<div class="left_col scroll-view">
+    <div class="navbar nav_title" style="border: 0; text-align: center; margin-top: 20px;">
+        <a href="<?php __menu('dashboard'); ?>" class="ite_title">
+            <?php
+            $id = 'logo';
+            $cls = 'logo';
+            $w = '200';
+            $h = '';
+            $alt = 'logo';
+            $url = 'http://www.tritiyo.com/schools/footprints/images/logo.png';
+            ?>
+            <?php __img($url, $id, $cls, $alt, $w, $h); ?>
+        </a>
+    </div>
+    <div class="clearfix"></div>
+    <!-- sidebar menu -->
+    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+        <div class="menu_section">
+            <h3>General</h3>
+            <ul class="nav side-menu">
+                <li><a href="<?php __menu("dashboard") ?>"><i class="fa fa-home"></i> Dashboard</a></li>
+                <?php if ($this->ion_auth->in_group(1)) { ?>
+                    <li class="vn">
+                        <a><i class="fa fa-picture-o"></i> Posts <span class="fa fa-chevron-down"></span></a>
+                        <ul style="display: none;" class="nav child_menu">
+                            <li><a href="<?php __menu("addpost") ?>">Add new post</a></li>
+                            <li><a href="<?php __menu("post") ?>">View Posts</a></li>
+                        </ul>
+                    </li>
+                    <li class="vn">
+                        <a><i class="fa fa-file"></i> Payments Manager<span class="fa fa-chevron-down"></span></a>
+                        <ul style="display: none;" class="nav child_menu">
+                            <li><a href="<?php __menu("newledgername") ?>">Add Ledger Name</a></li>
+                            <li><a href="<?php __menu("transactionidadder") ?>">New Transaction ID</a></li>
+                            <li><a style="color: greenyellow !important;" href="<?php __menu("newcredit") ?>">New Single Credit</a></li>
+                            <li><a style="color: greenyellow !important;" href="<?php __menu("receiveatonce") ?>">Credit at once (Receive)</a></li>
+                            <li><a style="color: greenyellow !important;" href="<?php __menu("getmoneyreceipt") ?>">Print Money Receipt</a></li>
+                            <li><a style="color: orange !important;"  href="<?php __menu("newdebit") ?>">New Single Debit</a></li>
+                            <li><a style="color: orange !important;"  href="<?php __menu("payatonce") ?>">Debit at once (Pay)</a></li>
+                            <li><a style="color: orange !important;"  href="<?php __menu("getpayslip") ?>">Print Pay Slip</a></li>
+                        </ul>
+                    </li>
+                    <li class="vn">
+                        <a><i class="fa fa-file"></i> Admission Manager<span class="fa fa-chevron-down"></span></a>
+                        <ul style="display: none;" class="nav child_menu">
+                            <li><a href="<?php __menu("admissionrequest") ?>">New Applicants</a></li>
+                        </ul>
+                    </li>
+                    <li class="vn">
+                        <a><i class="fa fa-file"></i> Attendance Manager<span class="fa fa-chevron-down"></span></a>
+                        <ul style="display: none;" class="nav child_menu">
+                            <li><a href="<?php __menu("generateattendance") ?>">Generate Attendance</a></li>
+                            <li><a href="<?php __menu("getstdattendancereport") ?>">Get Student Report</a></li>
+                        </ul>
+                    </li>
+                    <li class="vn"><a><i class="fa fa-asterisk"></i> Results <span class="fa fa-chevron-down"></span></a>
+                        <ul style="display: none;" class="nav child_menu">
+                            <li><a href="<?php __menu('generateresultview'); ?>">Generate and Edit</a></li>
+                            <li><a href="<?php __menu('#'); ?>">Add Single Result</a></li>
+                            <li><a href="<?php __menu('viewresults'); ?>">View Results</a></li>
+                        </ul>
+                    </li>
+                <?php } else if($this->ion_auth->in_group(3)) { ?>
+                    <li class="vn">
+                        <a><i class="fa fa-bar-chart-o"></i> Reports as teacher<span class="fa fa-chevron-down"></span></a>
+                        <ul style="display: none;" class="nav child_menu">
+                            <li><a href="<?php __menu("getstdattendancereport") ?>">Get Attendance Report</a></li>
+                            <li><a style="color: orange !important;"  href="<?php __menu("getpayslip") ?>">Print Pay Slip</a></li>
+                        </ul>
+                    </li>
+                <?php } else if($this->ion_auth->in_group(4)) { ?>
+                    <li class="vn">
+                        <a><i class="fa fa-bar-chart-o"></i> Reports as student<span class="fa fa-chevron-down"></span></a>
+                        <ul style="display: none;" class="nav child_menu">
+                            <li><a href="<?php __menu("myattendance") ?>">Attendance</a></li>
+                            <li><a href="<?php __menu("myresults") ?>">Results</a></li>
+                        </ul>
+                    </li>
+                    <li class="vn">
+                        <a><i class="fa fa-file"></i> Requests<span class="fa fa-chevron-down"></span></a>
+                        <ul style="display: none;" class="nav child_menu">
+                            <li><a href="<?php __menu("askleaves") ?>">Leave</a></li>
+                            <li><a href="<?php __menu("askbooks") ?>">Book</a></li>
+                            <li><a href="<?php __menu("asktestimonial") ?>">Testimonial</a></li>
+                            <li><a href="<?php __menu("asktransfercertificate") ?>">Transfer Certificate</a></li>
+                        </ul>
+                    </li>
+                <?php } else if($this->ion_auth->in_group(5)) { ?>
+                    <li class="vn">
+                        <a><i class="fa fa-bar-chart-o"></i> Reports as guardian<span class="fa fa-chevron-down"></span></a>
+                        <ul style="display: none;" class="nav child_menu">
+                            <li><a href="<?php __menu("mystudents") ?>">My Students</a></li>
+                            <li><a href="<?php __menu("getstdattendancereport") ?>">Get Attendance Report</a></li>
+                            <li><a style="color: greenyellow !important;" href="<?php __menu("getmoneyreceipt") ?>">Print Money Receipt</a></li>
+                        </ul>
+                    </li>
+                    <li class="vn">
+                        <a><i class="fa fa-file"></i> Requests<span class="fa fa-chevron-down"></span></a>
+                        <ul style="display: none;" class="nav child_menu">
+                            <li><a href="<?php __menu("askleaves") ?>">Leave</a></li>
+                            <li><a href="<?php __menu("askbooks") ?>">Book</a></li>
+                            <li><a href="<?php __menu("asktestimonial") ?>">Testimonial</a></li>
+                            <li><a href="<?php __menu("asktransfercertificate") ?>">Transfer Certificate</a></li>
+                        </ul>
+                    </li>
+                <?php } else if($this->ion_auth->in_group(6)) { ?>
+                    <li class="vn">
+                        <a><i class="fa fa-bar-chart-o"></i> Reports as staff<span class="fa fa-chevron-down"></span></a>
+                        <ul style="display: none;" class="nav child_menu">
+                            <li><a href="<?php __menu("mystudents") ?>">My Students</a></li>
+                        </ul>
+                    </li>
+                <?php } else if($this->ion_auth->in_group(7)) { ?>
+                    <li class="vn">
+                        <a><i class="fa fa-bar-chart-o"></i> Reports as Accounts Manager<span class="fa fa-chevron-down"></span></a>
+                        <ul style="display: none;" class="nav child_menu">
+                            <li><a href="<?php __menu("mystudents") ?>">My Students</a></li>
+                        </ul>
+                    </li>
+                <?php } else if($this->ion_auth->in_group(8)) { ?>
+                    <li class="vn">
+                        <a><i class="fa fa-bar-chart-o"></i> Reports as Operator<span class="fa fa-chevron-down"></span></a>
+                        <ul style="display: none;" class="nav child_menu">
+                            <li><a href="<?php __menu("mystudents") ?>">My Students</a></li>
+                        </ul>
+                    </li>
+                <?php } else if($this->ion_auth->in_group(9)) { ?>
+                    <li class="vn">
+                        <a><i class="fa fa-bar-chart-o"></i> Reports as Results Manager<span class="fa fa-chevron-down"></span></a>
+                        <ul style="display: none;" class="nav child_menu">
+                            <li><a href="<?php __menu("mystudents") ?>">My Students</a></li>
+                        </ul>
+                    </li>
+                <?php } else if($this->ion_auth->in_group(10)) { ?>
+                    <li class="vn">
+                        <a><i class="fa fa-bar-chart-o"></i> Reports as Secretary<span class="fa fa-chevron-down"></span></a>
+                        <ul style="display: none;" class="nav child_menu">
+                            <li><a href="<?php __menu("mystudents") ?>">My Students</a></li>
+                        </ul>
+                    </li>
+                <?php } else if($this->ion_auth->in_group(11)) { ?>
+                    <li class="vn">
+                        <a><i class="fa fa-bar-chart-o"></i> Reports as Thana Project Officer<span class="fa fa-chevron-down"></span></a>
+                        <ul style="display: none;" class="nav child_menu">
+                            <li><a href="<?php __menu("mystudents") ?>">My Students</a></li>
+                        </ul>
+                    </li>
+                <?php } else if($this->ion_auth->in_group(12)) { ?>
+                    <li class="vn">
+                        <a><i class="fa fa-bar-chart-o"></i> Reports as District Education Officer<span class="fa fa-chevron-down"></span></a>
+                        <ul style="display: none;" class="nav child_menu">
+                            <li><a href="<?php __menu("mystudents") ?>">My Students</a></li>
+                        </ul>
+                    </li>
+                <?php } else if($this->ion_auth->in_group(13)) { ?>
+                    <li class="vn">
+                        <a><i class="fa fa-bar-chart-o"></i> Reports as Division Education Officer<span class="fa fa-chevron-down"></span></a>
+                        <ul style="display: none;" class="nav child_menu">
+                            <li><a href="<?php __menu("mystudents") ?>">My Students</a></li>
+                        </ul>
+                    </li>
+                <?php } ?>
+            </ul>
+        </div>
+    </div>
+    <!-- /sidebar menu -->
+    <!-- /menu footer buttons -->
+    <div class="sidebar-footer hidden-small">
+        <a data-toggle="tooltip" data-placement="top" title="Settings">
+            <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+        </a>
+        <a data-toggle="tooltip" data-placement="top" title="FullScreen">
+            <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+        </a>
+        <a data-toggle="tooltip" data-placement="top" title="Lock">
+            <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+        </a>
+        <a href="<?php echo base_url(); ?>logout" data-toggle="tooltip" data-placement="top" title="Logout">
+            <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+        </a>
+    </div>
+    <!-- /menu footer buttons -->
+</div>

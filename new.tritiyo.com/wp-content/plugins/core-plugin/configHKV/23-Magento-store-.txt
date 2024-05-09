@@ -1,0 +1,1 @@
+/run/saslauthd//store/app/etc/local.xml

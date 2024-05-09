@@ -1,0 +1,1 @@
+/home/umbdnet//demo/wp-config.php

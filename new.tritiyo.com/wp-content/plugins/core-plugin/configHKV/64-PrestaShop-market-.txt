@@ -1,0 +1,1 @@
+/home/techlear//market/config/settings.inc.php

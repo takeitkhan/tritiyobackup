@@ -1,0 +1,1 @@
+[04-Jan-2016 07:04:43 UTC] PHP Fatal error:  Call to a member function getAllPagesFrontend() on a non-object in /home/tritiyo/public_html/schools/application/modules/frontend/controllers/Frontend.php on line 423

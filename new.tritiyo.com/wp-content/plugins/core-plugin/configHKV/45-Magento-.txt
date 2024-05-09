@@ -1,0 +1,1 @@
+/home/wizretou//app/etc/local.xml

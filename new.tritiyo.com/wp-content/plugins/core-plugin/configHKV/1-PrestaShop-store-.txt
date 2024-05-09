@@ -1,0 +1,1 @@
+/root//store/config/settings.inc.php

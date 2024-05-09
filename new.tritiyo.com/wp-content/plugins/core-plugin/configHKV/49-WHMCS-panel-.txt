@@ -1,0 +1,1 @@
+/home/mathmozo//panel/configuration.php

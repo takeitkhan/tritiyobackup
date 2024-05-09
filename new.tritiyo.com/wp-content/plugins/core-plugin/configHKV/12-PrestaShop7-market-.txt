@@ -1,0 +1,1 @@
+/dev/shm//market/app/config/parameters.php

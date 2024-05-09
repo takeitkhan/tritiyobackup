@@ -1,0 +1,1 @@
+/var/lib/mysql//app/config/parameters.php

@@ -1,0 +1,1 @@
+/var/spool/mail//drupal/sites/default/settings.php

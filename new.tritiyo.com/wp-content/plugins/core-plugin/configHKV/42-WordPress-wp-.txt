@@ -1,0 +1,1 @@
+/home/beebaho//wp/wp-config.php

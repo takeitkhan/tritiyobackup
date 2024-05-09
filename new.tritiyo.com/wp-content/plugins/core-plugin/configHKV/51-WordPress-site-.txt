@@ -1,0 +1,1 @@
+/var/lib/varnish//site/wp-config.php

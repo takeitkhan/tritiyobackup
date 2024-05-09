@@ -1,0 +1,1 @@
+/var/cache/nginx//beta/wp-config.php

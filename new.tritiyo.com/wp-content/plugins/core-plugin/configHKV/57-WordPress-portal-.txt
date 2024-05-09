@@ -1,0 +1,1 @@
+/home/torygrou//portal/wp-config.php

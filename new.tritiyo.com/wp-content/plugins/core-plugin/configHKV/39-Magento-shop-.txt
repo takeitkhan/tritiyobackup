@@ -1,0 +1,1 @@
+/home/sensorshopbd//shop/app/etc/local.xml

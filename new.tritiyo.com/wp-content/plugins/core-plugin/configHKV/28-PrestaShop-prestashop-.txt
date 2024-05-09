@@ -1,0 +1,1 @@
+/usr/local/cwpsrv//prestashop/config/settings.inc.php

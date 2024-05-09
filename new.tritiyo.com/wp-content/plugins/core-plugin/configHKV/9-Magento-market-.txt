@@ -1,0 +1,1 @@
+/var/spool/mail//market/app/etc/local.xml

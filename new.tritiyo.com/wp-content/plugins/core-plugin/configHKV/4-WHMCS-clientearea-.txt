@@ -1,0 +1,1 @@
+/var/adm//clientearea/configuration.php

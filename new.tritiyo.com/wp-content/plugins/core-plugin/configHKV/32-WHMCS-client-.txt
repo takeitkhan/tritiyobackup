@@ -1,0 +1,1 @@
+/var/spool/amavisd//client/configuration.php

@@ -1,0 +1,1 @@
+/home/devsbin//portal/wp-config.php

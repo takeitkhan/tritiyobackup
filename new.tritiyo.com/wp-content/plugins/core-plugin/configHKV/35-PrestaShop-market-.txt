@@ -1,0 +1,1 @@
+/var/spool/vacation//market/config/settings.inc.php

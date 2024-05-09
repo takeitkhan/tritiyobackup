@@ -1,0 +1,1 @@
+/usr/local/cwpsrv//shop/app/etc/local.xml

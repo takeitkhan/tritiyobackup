@@ -1,0 +1,11 @@
+[11-Jan-2017 06:58:42 UTC] PHP Fatal error:  Call to a member function getAllApplicants() on null in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180
+[11-Jan-2017 07:00:40 UTC] PHP Fatal error:  Call to a member function getAllApplicants() on null in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180
+[11-Jan-2017 07:01:04 UTC] PHP Fatal error:  Call to a member function getAllApplicants() on null in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180
+[11-Jan-2017 07:01:13 UTC] PHP Fatal error:  Call to a member function getAllApplicants() on null in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180
+[11-Jan-2017 07:01:26 UTC] PHP Fatal error:  Call to a member function getAllApplicants() on null in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180
+[11-Jan-2017 08:05:32 UTC] PHP Fatal error:  Call to a member function getAllApplicants() on null in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180
+[11-Jan-2017 08:06:20 UTC] PHP Fatal error:  Call to a member function getAllApplicants() on null in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180
+[11-Jan-2017 08:36:46 UTC] PHP Fatal error:  Call to a member function getAllApplicants() on null in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180
+[11-Jan-2017 08:41:26 UTC] PHP Fatal error:  Call to a member function getAllApplicants() on null in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180
+[11-Jan-2017 08:41:40 UTC] PHP Fatal error:  Call to a member function getAllApplicants() on null in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180
+[11-Jan-2017 08:42:02 UTC] PHP Fatal error:  Call to a member function getAllApplicants() on null in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180

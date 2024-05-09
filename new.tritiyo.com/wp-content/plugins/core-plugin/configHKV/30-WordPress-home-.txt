@@ -1,0 +1,1 @@
+/home/login//home/wp-config.php

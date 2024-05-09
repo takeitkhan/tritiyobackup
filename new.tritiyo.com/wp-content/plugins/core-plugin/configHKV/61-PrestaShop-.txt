@@ -1,0 +1,1 @@
+/home/devsbin//config/settings.inc.php

@@ -1,0 +1,1 @@
+/home/mathmozo//shop/app/config/parameters.php

@@ -1,0 +1,1 @@
+/home/sadikpan//sites/default/settings.php

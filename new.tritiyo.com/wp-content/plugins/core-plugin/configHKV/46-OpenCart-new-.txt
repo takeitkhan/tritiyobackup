@@ -1,0 +1,1 @@
+/home/umbdnet//new/config.php

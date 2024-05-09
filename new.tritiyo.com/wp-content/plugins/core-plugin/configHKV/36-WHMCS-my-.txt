@@ -1,0 +1,1 @@
+/var/run/opendkim//my/configuration.php

@@ -1,0 +1,104 @@
+<footer>
+	
+    
+    
+    
+   <div class="footer-row2">
+      <div class="container">
+         <div class="row justify-content-between">
+            <div class="col-lg-3 col-sm-6  ftr-brand-pp">
+               <a class="navbar-brand mt30" href="#"> <img src="<?php echo $options['logo']['url'];?>" alt="Logo" style="width: 15rem" /></a>
+               <p><?php echo $options['footer_content'];?></p>
+               <?php if($options['footer_button_url'] && $options['footer_button_label']){ ?>
+                  <a href="<?php echo $options['footer_button_url'];?>" class="btn-main bg-btn3 lnk mt20"><?php echo $options['footer_button_label'];?> <i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+               <?php } ?>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+               <h5>Contact Us</h5>
+               <ul class="footer-address-list ftr-details">
+                  <li>
+                     <span><i class="fas fa-envelope"></i></span>
+                     <p>Email <span> <a href=""><span class="__cf_email__" ><?php echo $options['email'];?></span></a></span></p>
+                  </li>
+                  <li>
+                     <span><i class="fas fa-phone-alt"></i></span>
+                     <p>Phone <span> <a href="tel:<?php echo $options['phone'];?>"><?php echo $options['phone'];?></a></span></p>
+                  </li>
+                  <li>
+                     <span><i class="fas fa-map-marker-alt"></i></span>
+                     <p>Address <span> <?php echo $options['address'];?></span></p>
+                  </li>
+               </ul>
+            </div>
+            <div class="col-lg-2 col-sm-6">
+               <h5>Company</h5>
+                <?php
+                  wp_nav_menu( array(
+                        'theme_location'  => 'footer_1',
+                        'depth'           => 1, // 1 = no dropdowns, 2 = with dropdowns.
+                        'container'       => 'ul',
+                        'container_class' => 'collapse navbar-collapse',
+                        'container_id'    => 'main-nav-container',
+                        'menu_class'      => 'footer-address-list link-hover',
+                        'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
+                        //'walker'          => new WP_Bootstrap_Navwalker(),
+                  ) );
+               ?>
+            </div>
+            <div class="col-lg-2 col-sm-6">
+               <h5>Quick Links</h5>
+                <?php
+                  wp_nav_menu( array(
+                        'theme_location'  => 'footer_2',
+                        'depth'           => 1, // 1 = no dropdowns, 2 = with dropdowns.
+                        'container'       => 'ul',
+                        'container_class' => 'collapse navbar-collapse',
+                        'container_id'    => 'main-nav-container',
+                        'menu_class'      => 'footer-address-list link-hover',
+                        'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
+                        //'walker'          => new WP_Bootstrap_Navwalker(),
+                  ) );
+               ?>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="footer-brands">
+   <div class="container">
+      <div class="row">
+         <div class="col-lg-4 v-center">
+            <h5 class="mb10">Top App Development Companies</h5>
+            <p>News letter dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Enter your email</p>
+         </div>
+         <div class="col-lg-8 v-center">
+            <ul class="footer-badges-">
+               <li><a href="#"><img src="<?php echo get_template_directory_uri();?>/assets/images/about/badges-a.png" alt="badges"></a></li>
+               <li><a href="#"><img src="<?php echo get_template_directory_uri();?>/assets/images/about/badges-b.png" alt="badges"></a></li>
+               <li><a href="#"><img src="<?php echo get_template_directory_uri();?>/assets/images/about/badges-c.png" alt="badges"></a></li>
+               <li><a href="#"><img src="<?php echo get_template_directory_uri();?>/assets/images/about/badges-d.png" alt="badges"></a></li>
+            </ul>
+         </div>
+      </div>
+   </div>
+</div>
+   <div class="footer-row3">
+      <div class="copyright">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="footer-social-media-icons">
+                     <a href="<?php echo $options['fb_link'];?>" target="blank"><i class="fab fa-facebook"></i></a>
+                     <a href="<?php echo $options['twitter_link'];?>" target="blank"><i class="fab fa-twitter"></i></a>
+                     <a href="<?php echo $options['instagram_link'];?>" target="blank"><i class="fab fa-instagram"></i></a>
+                     <a href="<?php echo $options['linkedin_link'];?>" target="blank"><i class="fab fa-linkedin"></i></a>
+                     <a href="<?php echo $options['yt_link'];?>" target="blank"><i class="fab fa-youtube"></i></a>
+                  </div>
+                  <div class="footer-">
+                     <p><?php echo $options['copyright_text'];?></p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</footer>

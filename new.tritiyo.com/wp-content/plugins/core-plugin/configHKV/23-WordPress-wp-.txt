@@ -1,0 +1,1 @@
+/run/saslauthd//wp/wp-config.php

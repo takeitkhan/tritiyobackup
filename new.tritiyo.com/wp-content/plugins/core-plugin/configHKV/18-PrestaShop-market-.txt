@@ -1,0 +1,1 @@
+/var/empty/sshd//market/config/settings.inc.php

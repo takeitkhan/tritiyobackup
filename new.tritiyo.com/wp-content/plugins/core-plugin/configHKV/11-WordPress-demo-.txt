@@ -1,0 +1,1 @@
+/usr/games//demo/wp-config.php

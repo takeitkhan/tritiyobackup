@@ -1,0 +1,60 @@
+.bs-example {
+    position: relative;
+    padding: 10px 0 0 0;
+    margin: 0;
+}
+.bs-example-bg-classes p {
+    padding: 10px;
+    border: 1px solid #168240;
+}
+.dashicons {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.dashicons i {
+    font-size: 30px;
+}
+
+.dashicons h6 {
+    font-weight: bold;
+}
+
+.dashicons a:hover {
+    text-decoration: none;
+    display: block;
+    color: #1ABB9C;
+}
+
+.dashicons a:hover i {
+    color: #1ABB9C;
+}
+
+.dashicons a:hover h6 {
+    font-weight: bold;
+}
+
+.extra10 {
+    padding-top: 10px;
+}
+
+.modal-dialog {
+    width: 80% !important;
+}
+
+.extraheight {
+    min-height: 220px;
+}
+.widgetblocks ul {
+    list-style: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.widgetblocks ul li {
+    list-style: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}

@@ -1,0 +1,1 @@
+/var/spool/lpd//supports/configuration.php

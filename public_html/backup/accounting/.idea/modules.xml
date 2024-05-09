@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/accounting.iml" filepath="$PROJECT_DIR$/.idea/accounting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../campus/.idea/campus.iml" filepath="$PROJECT_DIR$/../campus/.idea/campus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../crime_new/.idea/crime_new.iml" filepath="$PROJECT_DIR$/../crime_new/.idea/crime_new.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hospital/.idea/hospital.iml" filepath="$PROJECT_DIR$/../hospital/.idea/hospital.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../music/.idea/music.iml" filepath="$PROJECT_DIR$/../music/.idea/music.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../regalf/.idea/regalf.iml" filepath="$PROJECT_DIR$/../regalf/.idea/regalf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../rohingya/.idea/rohingya.iml" filepath="$PROJECT_DIR$/../rohingya/.idea/rohingya.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../school/.idea/school.iml" filepath="$PROJECT_DIR$/../school/.idea/school.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tnews/.idea/tnews.iml" filepath="$PROJECT_DIR$/../tnews/.idea/tnews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../visitbangladesh/.idea/visitbangladesh.iml" filepath="$PROJECT_DIR$/../visitbangladesh/.idea/visitbangladesh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../westcoast/.idea/westcoast.iml" filepath="$PROJECT_DIR$/../westcoast/.idea/westcoast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../womens/.idea/womens.iml" filepath="$PROJECT_DIR$/../womens/.idea/womens.iml" />
+    </modules>
+  </component>
+</project>

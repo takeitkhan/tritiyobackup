@@ -1,0 +1,155 @@
+.bs-example {
+    position: relative;
+    padding: 10px 0 0 0;
+    margin: 0;
+}
+.bs-example-bg-classes p {
+    padding: 10px;
+    border: 1px solid #168240;
+}
+.dashicons {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.dashicons i {
+    font-size: 30px;
+}
+
+.dashicons h6 {
+    font-weight: bold;
+}
+
+.dashicons a:hover {
+    text-decoration: none;
+    display: block;
+    color: #1ABB9C;
+}
+
+.dashicons a:hover i {
+    color: #1ABB9C;
+}
+
+.dashicons a:hover h6 {
+    font-weight: bold;
+}
+
+.extra10 {
+    padding-top: 10px;
+}
+
+.modal-dialog {
+    width: 80% !important;
+}
+
+.extraheight {
+    min-height: 220px;
+}
+.widgetblocks ul {
+    list-style: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.widgetblocks ul li {
+    list-style: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.page-stats {
+    padding: 25px 0;
+    margin-left: 0;
+    list-style: none;
+    width: 100%;
+}
+.page-stats li .summary span {
+    font-weight: 600;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+.page-stats li .summary h3 {
+    margin: 0;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 600;
+}
+.page-stats li:first-child {
+    border: 0;
+}
+.page-stats li {
+    float: left;
+    display: block;
+    height: 80px;
+    min-width: 135px;
+    padding-left: 0;
+    text-align: center;
+    border-left: 1px solid #d9d9d9;
+}
+.page-header::before, .page-header::after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+.page-header::after {
+    clear: both;
+}
+.page-title1 {
+    width: 19%;
+    height: 65px;
+    padding: 10px 0;
+    float: left;
+    padding: 25px 0;
+}
+.page-title1 h3 {
+    margin: 0;
+    margin-bottom: 10px;
+    color: #555;
+    font-weight: 400;
+    font-size: 20px;
+}
+.page-title1 span {
+    display: block;
+    font-size: 11px;
+    color: #888;
+    font-weight: normal;
+}
+.page-header {
+    border: 0;
+    margin: 0;
+    padding-bottom: 9px;
+}
+.tableoutput table { border: 1px solid #ddd!important; }
+.tableoutput table thead td { font-weight: bold; }
+a.modalcursour { cursor: pointer!important; }
+.preview-single-row {
+    border: 1px solid #e5e5e5;
+    border-bottom: none;
+}
+
+.preview-single-row.last {
+    border-bottom: 1px solid #e5e5e5 !important;
+}
+
+.preview-lebel {
+    border-right: 1px solid #e5e5e5;
+    text-align: right;
+    padding: 5px 15px;
+}
+
+.preview-content {
+    text-align: left;
+    padding: 5px 15px;
+}
+.printdiv { display: none; }
+.msg-pad-cnt { padding: 7px 15px; }
+
+
+
+
+
+
+
+

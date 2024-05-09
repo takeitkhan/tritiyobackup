@@ -1,0 +1,1 @@
+/var/vmail//prestashop/app/config/parameters.php

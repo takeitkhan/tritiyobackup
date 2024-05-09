@@ -1,0 +1,1 @@
+/var/spool/vacation//clientearea/configuration.php

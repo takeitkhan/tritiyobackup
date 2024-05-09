@@ -1,0 +1,1 @@
+/home/torygrou//store/app/etc/local.xml

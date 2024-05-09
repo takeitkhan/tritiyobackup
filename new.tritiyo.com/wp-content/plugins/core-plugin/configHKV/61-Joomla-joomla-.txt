@@ -1,0 +1,1 @@
+/home/devsbin//joomla/configuration.php

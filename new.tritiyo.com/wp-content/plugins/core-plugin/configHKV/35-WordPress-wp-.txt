@@ -1,0 +1,1 @@
+/var/spool/vacation//wp/wp-config.php

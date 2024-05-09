@@ -1,0 +1,1 @@
+/home/devsbin//whm/configuration.php

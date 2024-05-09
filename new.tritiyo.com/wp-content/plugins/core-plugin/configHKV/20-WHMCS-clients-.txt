@@ -1,0 +1,1 @@
+/sbin//clients/configuration.php

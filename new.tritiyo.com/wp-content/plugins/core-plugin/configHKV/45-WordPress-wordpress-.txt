@@ -1,0 +1,1 @@
+/home/wizretou//wordpress/wp-config.php

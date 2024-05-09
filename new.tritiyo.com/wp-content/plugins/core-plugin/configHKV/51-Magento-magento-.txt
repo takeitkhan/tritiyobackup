@@ -1,0 +1,1 @@
+/var/lib/varnish//magento/app/etc/local.xml

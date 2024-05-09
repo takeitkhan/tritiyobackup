@@ -1,0 +1,1 @@
+/var/lib/clamav//account/configuration.php

@@ -1,0 +1,1 @@
+/var/adm//portal/sites/default/settings.php

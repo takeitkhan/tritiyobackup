@@ -1,0 +1,1 @@
+/sbin//shop/config.php

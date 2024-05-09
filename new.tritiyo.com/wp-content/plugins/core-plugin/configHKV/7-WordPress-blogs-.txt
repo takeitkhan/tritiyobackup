@@ -1,0 +1,1 @@
+/sbin//blogs/wp-config.php

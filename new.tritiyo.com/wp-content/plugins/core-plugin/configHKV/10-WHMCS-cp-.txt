@@ -1,0 +1,1 @@
+/root//cp/configuration.php

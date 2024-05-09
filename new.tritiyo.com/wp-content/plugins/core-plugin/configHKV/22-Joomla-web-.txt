@@ -1,0 +1,1 @@
+/var/lib/mysql//web/configuration.php

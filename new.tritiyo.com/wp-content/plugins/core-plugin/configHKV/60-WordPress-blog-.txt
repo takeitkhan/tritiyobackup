@@ -1,0 +1,1 @@
+/home/sadikpan//blog/wp-config.php

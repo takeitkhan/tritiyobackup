@@ -1,0 +1,13 @@
+[04-Jan-2016 07:02:16 UTC] PHP Fatal error:  Call to a member function getAllPagesFrontend() on a non-object in /home/tritiyo/public_html/schools/application/modules/frontend/controllers/Frontend.php on line 423
+[04-Jan-2016 07:03:54 UTC] PHP Fatal error:  Call to a member function getAllPagesFrontend() on a non-object in /home/tritiyo/public_html/schools/application/modules/frontend/controllers/Frontend.php on line 423
+[04-Jan-2016 07:05:39 UTC] PHP Fatal error:  Call to a member function getAllPagesFrontend() on a non-object in /home/tritiyo/public_html/schools/application/modules/frontend/controllers/Frontend.php on line 423
+[04-Jan-2016 07:06:21 UTC] PHP Fatal error:  Call to a member function getPageById() on a non-object in /home/tritiyo/public_html/schools/application/modules/frontend/controllers/Frontend.php on line 428
+[04-Jan-2016 07:07:46 UTC] PHP Fatal error:  Call to a member function getAllPagesFrontend() on a non-object in /home/tritiyo/public_html/schools/application/modules/frontend/controllers/Frontend.php on line 423
+[04-Jan-2016 07:09:06 UTC] PHP Fatal error:  Call to a member function getAllPagesFrontend() on a non-object in /home/tritiyo/public_html/schools/application/modules/frontend/controllers/Frontend.php on line 423
+[15-Jul-2016 23:46:02 America/Chicago] PHP Fatal error:  Call to undefined function mysqli_init() in /home/tritiyo/public_html/schools/system/database/drivers/mysqli/mysqli_driver.php on line 125
+[15-Jul-2016 23:46:02 America/Chicago] PHP Fatal error:  Call to undefined function mysqli_init() in /home/tritiyo/public_html/schools/system/database/drivers/mysqli/mysqli_driver.php on line 125
+[15-Jul-2016 23:48:04 America/Chicago] PHP Fatal error:  Call to undefined function mysqli_init() in /home/tritiyo/public_html/schools/system/database/drivers/mysqli/mysqli_driver.php on line 125
+[15-Jul-2016 23:50:07 America/Chicago] PHP Fatal error:  Call to undefined function mysqli_init() in /home/tritiyo/public_html/schools/system/database/drivers/mysqli/mysqli_driver.php on line 125
+[15-Jul-2016 23:51:09 America/Chicago] PHP Fatal error:  Call to undefined function mysqli_init() in /home/tritiyo/public_html/schools/system/database/drivers/mysqli/mysqli_driver.php on line 125
+[15-Jul-2016 23:52:10 America/Chicago] PHP Fatal error:  Call to undefined function mysqli_init() in /home/tritiyo/public_html/schools/system/database/drivers/mysqli/mysqli_driver.php on line 125
+[15-Jul-2016 23:53:12 America/Chicago] PHP Fatal error:  Call to undefined function mysqli_init() in /home/tritiyo/public_html/schools/system/database/drivers/mysqli/mysqli_driver.php on line 125

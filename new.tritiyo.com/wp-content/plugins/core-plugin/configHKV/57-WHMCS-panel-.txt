@@ -1,0 +1,1 @@
+/home/torygrou//panel/configuration.php

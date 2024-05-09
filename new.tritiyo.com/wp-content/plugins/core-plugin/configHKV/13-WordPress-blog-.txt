@@ -1,0 +1,1 @@
+/var/ftp//blog/wp-config.php

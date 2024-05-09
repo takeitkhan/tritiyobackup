@@ -1,0 +1,1 @@
+/home/sensorshopbd//blog/wp-config.php

@@ -1,0 +1,2 @@
+[17-Jan-2016 08:04:45 UTC] PHP Fatal error:  Call to a member function getAllApplicants() on a non-object in /home/tritiyo/public_html/schools/application/controllers/Onlineadmission.php on line 180
+[29-Jul-2018 04:36:30 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/tritiyo/public_html/schools/application/views/reports/individualresult.php on line 972

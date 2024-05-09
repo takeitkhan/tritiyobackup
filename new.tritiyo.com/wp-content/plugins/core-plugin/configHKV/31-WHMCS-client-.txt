@@ -1,0 +1,1 @@
+/var/lib/clamav//client/configuration.php
